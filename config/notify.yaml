@@ -1,0 +1,33 @@
+# 推送与提醒配置
+notify:
+  email:
+    enabled: true
+    provider: qq_smtp
+    smtp_host: smtp.qq.com
+    smtp_port: 465
+    use_ssl: true
+    from_user_env: QQ_MAIL_USER      # GitHub Secret
+    auth_code_env: QQ_MAIL_AUTH_CODE # GitHub Secret（QQ邮箱授权码）
+    to_env: MAIL_TO                  # 主收件人
+    cc_env: MAIL_CC                  # 抄送
+    subject_prefix: "[求职雷达]"
+  reminder:
+    deadline_alert:
+      enabled: true
+      hour_local: 18    # 每天18点推送即将截止的岗位提醒
+      window_days: 3    # 截止前3天内视为“即将截止”
+  weekly_report:
+    enabled: true
+    weekday_local: 1    # 周一
+    hour_local: 9       # 09:00
+  report:
+    daily_max_items: 20
+    sort_by: [score, deadline]
+    include_pages_link: true
+
+quota:
+  # 每日推荐配额：按 tier 分配（对齐 profile.yaml 6-8-4-2）
+  S: 6
+  A: 8
+  B: 4
+  C: 2
