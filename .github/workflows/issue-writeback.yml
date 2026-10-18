@@ -1,0 +1,40 @@
+name: Process Application Issues (方案B写回)
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: issue-writeback
+  cancel-in-progress: false
+
+jobs:
+  writeback:
+    if: startsWith(github.event.issue.title, '[投递反馈]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml
+      - name: Writeback application status
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m scripts.process_issue
+      - name: Commit & close issue
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "action@github.com"
+          git add data/applications.json
+          git diff --cached --quiet || git commit -m "chore: application writeback #$ISSUE_NUMBER"
+          git push || true
+          gh issue close $ISSUE_NUMBER --reason completed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
