@@ -1,0 +1,55 @@
+# 信源清单：每个源一个适配器
+sources:
+  - name: gxut_jiuyeb
+    adapter: gxut_jiuyeb
+    base_url: https://gxkejidx.jiuyeb.cn/Zhaopin/xiaozhao.html
+    enabled: true
+    priority: S
+  - name: iguopin
+    adapter: iguopin
+    base_url: https://www.iguopin.com
+    enabled: true
+    priority: S
+  - name: ncss
+    adapter: ncss
+    base_url: https://www.ncss.cn
+    enabled: true
+    priority: S
+  - name: sasac_hr
+    adapter: sasac_hr
+    base_url: http://www.sasac.gov.cn
+    enabled: true
+    priority: A
+  - name: moka_campus
+    adapter: moka_batch
+    enabled: true
+    priority: A
+  - name: beisen_campus
+    adapter: beisen_batch
+    enabled: true
+    priority: A
+
+guangdong_watchlist:
+  listed_companies:
+    - {name: 广州视源电子科技, moka_slug: cvte, listed: a_share}
+    - {name: 深圳市汇川技术, moka_slug: inovance, listed: a_share}
+    - {name: 大族激光, moka_slug: hanslaser, listed: a_share}
+    - {name: 广东拓斯达, moka_slug: topsstar, listed: a_share}
+    - {name: 珠海格力电器, moka_slug: gree, listed: a_share}
+    - {name: 美的集团, moka_slug: midea, listed: a_share}
+    - {name: TCL科技, moka_slug: tcl, listed: a_share}
+    - {name: 比亚迪, moka_slug: byd, listed: a_share}
+    - {name: 惠州亿纬锂能, moka_slug: eve, listed: a_share}
+    - {name: 欣旺达, moka_slug: sunwoda, listed: a_share}
+    - {name: 鹏鼎控股, moka_slug: avary, listed: a_share}
+    - {name: 生益科技, moka_slug: shengyi, listed: a_share}
+    - {name: 领益智造, moka_slug: lingyiitech, listed: a_share}
+  soe:
+    - {name: 中国电器科学研究院, type: 央企}
+    - {name: 中广核工程有限公司, type: 央企}
+    - {name: 南方电网, type: 央企, url: https://zhaopin.csg.cn}
+    - {name: 广东电网, type: 央企}
+    - {name: 中广核研究院, type: 央企}
+
+company_registry_file: config/company_registry.yaml
+manual_feeds_dir: data/manual_feeds
