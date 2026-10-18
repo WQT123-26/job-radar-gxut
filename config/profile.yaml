@@ -1,0 +1,78 @@
+# 求职画像：广西科技大学 27届 仪器与自动化 本科
+grad_year: 2027
+degree: 本科
+daily_quota: 20
+
+region_weights:
+  广东: 10
+  广州: 10
+  深圳: 10
+  佛山: 10
+  东莞: 10
+  珠海: 10
+  惠州: 10
+  广西: 8
+  华南其他: 6
+  其他省会: 2
+
+sectors:
+  自动化控制:
+    weight: 1.0
+    keywords: [自动化, 控制工程师, 运动控制, PLC, 工控, 机器人]
+  测控与仪器:
+    weight: 1.0
+    keywords: [测控, 仪器, 仪表, 计量, 校准, 传感, 检测]
+  电气电力:
+    weight: 1.0
+    keywords: [电气, 继电保护, 变电, 电力电子, 输配电]
+  硬件与嵌入式:
+    weight: 0.85
+    keywords: [硬件, 嵌入式, PCB, 单片机, 驱动, FPGA, MCU]
+  测试与质量:
+    weight: 0.8
+    keywords: [测试工程师, 可靠性, QE, 质量工程, 检测管培]
+  智能制造:
+    weight: 0.85
+    keywords: [设备工程师, 工艺工程师, 产线, 智能制造, 仪控]
+  军工装备:
+    weight: 0.8
+    keywords: [雷达, 光电, 惯导, 总体设计]
+  管培生:
+    weight: 0.75
+    keywords: [管培生, 管理培训生]
+
+hard_reject:
+  title_keywords: [销售, 代招, 中介, 劳务, 外包驻场, 客服, 操作工, 普工]
+  jd_keywords: [两班倒, 四班三倒, 三班倒, 产线操作, 常驻客户现场, 经验3年, 三年及以上]
+  min_salary: 6000
+  negotiated_min_company_score: 75
+
+scoring:
+  listed_a_share: 30
+  listed_bse: 22
+  listed_neeq: 14
+  soe_central: 12
+  soe_province: 9
+  fortune500_foreign: 10
+  unicorn: 25
+  round_d_plus: 20
+  round_c: 16
+  round_ab: 12
+  sre_zhuanjingtexin: 15
+  size_5000: 10
+  size_1000: 7
+  size_100: 4
+  weekend_double: 12
+  welfare_per_item: 3
+  welfare_cap: 25
+  deadline_soon_cap: 8
+
+quota:
+  soe: 6
+  listed: 8
+  funded: 4
+  guangdong: 2
+  max_same_company: 2
+  max_same_city: 5
+  max_same_sector: 6
+  max_same_group: 3
