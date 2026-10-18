@@ -1,0 +1,124 @@
+# 公司质量字典：评分与投递优先级依据
+# tier: S=必须投 / A=优先投 / B=常规 / C=备选
+# veto: 触发一票否决的条件（对齐 profile.yaml：<6K 否决）
+companies:
+  # —— 广东必抓·上市公司 ——
+  - name: 广州视源电子科技
+    alias: [CVTE, 视源股份]
+    industry: 电子/智能显示
+    location: 广州
+    tier: S
+    tags: [上市公司, 校招规模大, 仪器相关]
+  - name: 深圳市汇川技术
+    alias: [汇川, Inovance]
+    industry: 工业自动化
+    location: 深圳/苏州
+    tier: S
+    tags: [上市公司, 自动化, 强相关]
+  - name: 大族激光
+    alias: [Han's Laser]
+    industry: 激光装备
+    location: 深圳
+    tier: A
+    tags: [上市公司, 装备制造]
+  - name: 广东拓斯达
+    alias: [拓斯达, Topstar]
+    industry: 机器人/自动化
+    location: 东莞
+    tier: A
+    tags: [上市公司, 自动化]
+  - name: 珠海格力电器
+    alias: [格力, Gree]
+    industry: 家电/装备
+    location: 珠海
+    tier: A
+    tags: [上市公司, 国企背景]
+  - name: 美的集团
+    alias: [Midea]
+    industry: 家电/机器人
+    location: 佛山
+    tier: A
+    tags: [上市公司, 校招规模大]
+  - name: TCL科技
+    alias: [TCL]
+    industry: 半导体显示
+    location: 惠州/深圳
+    tier: A
+    tags: [上市公司]
+  - name: 比亚迪
+    alias: [BYD]
+    industry: 新能源汽车
+    location: 深圳/西安
+    tier: A
+    tags: [上市公司, 校招规模大]
+  - name: 惠州亿纬锂能
+    alias: [亿纬, EVE]
+    industry: 锂电池
+    location: 惠州
+    tier: B
+    tags: [上市公司]
+  - name: 欣旺达
+    alias: [Sunwoda]
+    industry: 锂电池
+    location: 深圳
+    tier: B
+    tags: [上市公司]
+  - name: 鹏鼎控股
+    alias: [Avary]
+    industry: PCB
+    location: 深圳/淮安
+    tier: B
+    tags: [上市公司]
+  - name: 生益科技
+    alias: [Shengyi]
+    industry: 覆铜板
+    location: 东莞
+    tier: B
+    tags: [上市公司]
+  - name: 领益智造
+    alias: [Lingyi iTech]
+    industry: 精密制造
+    location: 深圳/江门
+    tier: B
+    tags: [上市公司]
+
+  # —— 央国企 ——
+  - name: 中国电器科学研究院
+    alias: [中国电器院, CEI]
+    industry: 电器科研
+    location: 广州
+    tier: S
+    tags: [央企, 仪器强相关, 编制类]
+  - name: 中广核工程有限公司
+    alias: [中广核工程]
+    industry: 核电工程
+    location: 深圳
+    tier: S
+    tags: [央企, 仪控相关]
+  - name: 中广核研究院
+    alias: [中广核研]
+    industry: 核能研究
+    location: 深圳
+    tier: A
+    tags: [央企, 仪器相关]
+  - name: 南方电网
+    alias: [CSG]
+    industry: 电网
+    location: 广州
+    tier: S
+    tags: [央企, 稳定, 校招统考]
+  - name: 广东电网
+    alias: [GPDW]
+    industry: 电网
+    location: 广州
+    tier: S
+    tags: [央企, 稳定, 校招统考]
+
+  # —— 通用兜底规则 ——
+defaults:
+  unknown_company:
+    tier: B
+    note: 未收录公司默认 B 级，评分时按常规处理
+  veto_rules:
+    - salary_below_6k
+    - location_not_in_guangdong_and_no_relocation_support
