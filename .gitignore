@@ -1,0 +1,20 @@
+# 敏感与本地状态，禁止入库
+secrets/
+*.key
+.env
+.env.*
+
+# 运行状态
+state/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 手动线索临时目录（可选入库，默认忽略草稿）
+data/manual_feeds/*.draft.jsonl
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
