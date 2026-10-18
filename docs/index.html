@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>求职雷达工作台 · 广西科技大学 27 届</title>
+<style>
+body{font-family:system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;margin:24px;color:#1f2328;max-width:1100px}
+h1{font-size:1.5em} table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid #d0d7de;padding:6px 10px;text-align:left}
+th{background:#f6f8fa} tr:nth-child(even){background:#fafbfc}
+.badge{display:inline-block;background:#0969da;color:#fff;border-radius:12px;padding:2px 10px;font-size:12px;margin-left:8px}
+a{color:#0969da;text-decoration:none} a:hover{text-decoration:underline}
+.note{color:#57606a;font-size:13px}
+</style>
+</head>
+<body>
+<h1>🎯 求职雷达工作台 <span class="badge" id="updated">加载中…</span></h1>
+<p class="note">数据由 GitHub Actions 每日 07:30（北京时间）自动抓取更新 · 数据文件：docs/data/latest.json</p>
+
+<h2>今日岗位池</h2>
+<table id="jobs">
+<tr><th>评分</th><th>公司</th><th>岗位</th><th>地点</th><th>薪资</th><th>截止</th><th>链接</th></tr>
+</table>
+
+<h2>投递状态跟踪</h2>
+<table id="applied">
+<tr><th>公司</th><th>岗位</th><th>状态</th><th>更新时间</th></tr>
+</table>
+
+<h2>快速操作</h2>
+<ul>
+<li>📥 <a href="https://github.com/WQT123-26/job-radar-gxut/issues/new?template=writeback.yml" target="_blank">新建投递回写 Issue</a>（更新投递状态）</li>
+<li>📂 <a href="https://github.com/WQT123-26/job-radar-gxut" target="_blank">仓库主页</a></li>
+<li>⚙️ <a href="https://github.com/WQT123-26/job-radar-gxut/actions" target="_blank">Actions 运行记录</a></li>
+</ul>
+
+<script>
+async function load() {
+  try {
+    const r = await fetch('./data/latest.json', {cache: 'no-store'});
+    const d = await r.json();
+    document.getElementById('updated').textContent = '更新 ' + (d.updated_at || '');
+    const tb = document.querySelector('#jobs');
+    (d.jobs || []).forEach(j => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${j.score ?? ''}</td><td>${j.company || ''}</td><td>${j.title || ''}</td>` +
+        `<td>${j.location || ''}</td><td>${j.salary || '面议'}</td>` +
+        `<td>${j.deadline || '长期有效'}</td>` +
+        `<td><a href="${j.url || '#'}" target="_blank">投递</a></td>`;
+      tb.appendChild(tr);
+    });
+    if (!d.jobs || !d.jobs.length) {
+      tb.insertAdjacentHTML('beforeend', '<tr><td colspan="7">暂无数据，等待首次运行</td></tr>');
+    }
+    try {
+      const r2 = await fetch('./data/applied.json', {cache: 'no-store'});
+      const applied = await r2.json();
+      const tb2 = document.querySelector('#applied');
+      (applied || []).forEach(a => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${a.company || ''}</td><td>${a.title || ''}</td>` +
+          `<td>${a.status || ''}</td><td>${a.updated_at || ''}</td>`;
+        tb2.appendChild(tr);
+      });
+      if (!applied || !applied.length) {
+        tb2.insertAdjacentHTML('beforeend', '<tr><td colspan="4">暂无投递记录</td></tr>');
+      }
+    } catch (e) { /* applied.json 不存在时忽略 */ }
+  } catch (e) {
+    document.getElementById('updated').textContent = '暂无数据（等待首次运行）';
+  }
+}
+load();
+</script>
+</body>
+</html>
