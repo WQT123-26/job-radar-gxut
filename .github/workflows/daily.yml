@@ -1,0 +1,41 @@
+name: Daily Job Push
+
+on:
+  schedule:
+    - cron: '30 23 * * *'   # UTC 23:30 = 北京时间次日 07:30
+    - cron: '0 10 * * *'    # UTC 10:00 = 北京时间 18:00（截止提醒）
+  workflow_dispatch: {}
+
+concurrency:
+  group: daily-job-push
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Run sync + push
+        env:
+          QQ_MAIL_USER: ${{ secrets.QQ_MAIL_USER }}
+          QQ_MAIL_AUTH_CODE: ${{ secrets.QQ_MAIL_AUTH_CODE }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_CC: ${{ secrets.MAIL_CC }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m scripts.run_daily
+      - name: Commit data
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "action@github.com"
+          git add data/ archive/ docs/
+          git diff --cached --quiet || git commit -m "chore: daily sync $(date -u +%F)"
+          git push
