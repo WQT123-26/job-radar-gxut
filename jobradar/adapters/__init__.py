@@ -16,21 +16,31 @@ def get_adapter(name: str):
     return ADAPTERS.get(name)
 
 
-def fetch_all(sources_cfg: dict) -> list:
-    """遍历启用的信源并抓取岗位列表，单个信源失败不影响整体"""
-    jobs = []
+def fetch_all(sources_cfg: dict):
+    """遍历启用的信源抓取岗位。
+
+    返回 (jobs, errors)：
+    - jobs: 所有成功信源的岗位列表
+    - errors: 失败信源的错误清单 [{name, error}]，供主流程在邮件/日志中如实上报
+    """
+    jobs, errors = [], []
     for src in sources_cfg.get("sources", []):
         if not src.get("enabled", True):
             continue
+        name = src.get("name", src.get("adapter", "unknown"))
         adapter = get_adapter(src.get("adapter", ""))
         if adapter is None:
+            errors.append({"name": name, "error": "adapter not registered"})
             continue
         try:
-            jobs.extend(adapter(src).fetch())
+            got = adapter(src).fetch()
+            jobs.extend(got)
+            print(f"[info] source {name}: {len(got)} jobs")
         except Exception as e:  # noqa: BLE001
-            print(f"[warn] source {src.get('name')} failed: {e}")
-    return jobs
+            print(f"[warn] source {name} failed: {e}")
+            errors.append({"name": name, "error": str(e)})
+    return jobs, errors
 
 
 # 导入各适配器以完成注册
-from . import generic  # noqa: E402,F401  通用 HTTP 适配器（九业/国聘/国聘/国资等占位）
+from . import generic  # noqa: E402,F401
