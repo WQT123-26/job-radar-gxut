@@ -1,4 +1,32 @@
 {
-  "updated_at": "2026-10-19T23:55:01",
-  "jobs": []
+  "updated_at": "2026-10-20T06:45:20",
+  "jobs": [],
+  "source_errors": [
+    {
+      "name": "gxut_jiuyeb",
+      "error": "gxut_jiuyeb: 未配置 JIUYEB_COOKIE Secret，校就业网接口需登录态（login_user_id），本日该源跳过"
+    },
+    {
+      "name": "iguopin",
+      "error": "iguopin: 站点为 SPA 且接口需登录态，暂不可抓取（如实跳过）"
+    },
+    {
+      "name": "ncss",
+      "error": "ncss: 需学信网登录态，暂不可抓取（如实跳过）"
+    },
+    {
+      "name": "sasac_hr",
+      "error": "sasac_hr: 页面为 JS 渲染，暂不可静态抓取（如实跳过）"
+    },
+    {
+      "name": "moka_campus",
+      "error": "moka_batch: 未实装（如实跳过）"
+    },
+    {
+      "name": "beisen_campus",
+      "error": "beisen_batch: 未实装（如实跳过）"
+    }
+  ],
+  "raw_count": 0,
+  "fresh_count": 0
 }
