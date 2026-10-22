@@ -1,140 +1,52 @@
 {
-  "updated_at": "2026-10-22T12:47:25",
+  "updated_at": "2026-10-22T13:12:54",
   "jobs": [
     {
-      "score": 40,
-      "company": "广东电网",
-      "title": "2027年校园招聘（电气/自动化/仪器仪表类，含计量检测岗）",
-      "location": "广东",
+      "score": 20,
+      "company": "山东爱舒乐卫生用品有限责任公司",
+      "title": "生产设备管理工程师（水刺布）",
+      "location": "",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/",
-      "source": "seed:scnu",
-      "dedup_key": "325314a6cd2b899bd8be2cc25984c0a2"
-    },
-    {
-      "score": 40,
-      "company": "南方电网",
-      "title": "2027届校园招聘统考（自动化/测控技术类）",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/",
-      "source": "seed:scnu",
-      "dedup_key": "feb366a895e329a967f9942f8b12ad4c"
-    },
-    {
-      "score": 40,
-      "company": "广州视源电子科技",
-      "title": "2027届校园招聘（测试开发/硬件工程师方向）",
-      "location": "广州",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.gdufs.edu.cn/",
-      "source": "seed:gdufs",
-      "dedup_key": "a60b485fcf232427d41246a4f15d9055"
-    },
-    {
-      "score": 40,
-      "company": "汇川技术",
-      "title": "2027届校园招聘（嵌入式/仪器研发工程师）",
-      "location": "深圳/苏州",
-      "salary": "",
-      "deadline": "",
-      "url": "https://www.gdufs.edu.cn/",
-      "source": "seed",
-      "dedup_key": "c641fb5d647715e5951622a2ad3eb230"
-    },
-    {
-      "score": 40,
-      "company": "中国电器科学研究院",
-      "title": "2027届校园招聘（检测/仪器仪表工程师，央企编制）",
-      "location": "广州",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/",
-      "source": "seed",
-      "dedup_key": "85f49448b00ce2fb559c3bf4a818ff75"
-    },
-    {
-      "score": 40,
-      "company": "中广核工程有限公司",
-      "title": "2027届校园招聘（仪控工程师方向）",
-      "location": "深圳",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.sysu.edu.cn/",
-      "source": "seed",
-      "dedup_key": "9fbe4455a3171d09c91a61d8d7f7bb71"
-    },
-    {
-      "score": 30,
-      "company": "美的集团",
-      "title": "2027届美少年计划校园招聘（自动化/质量管理方向）",
-      "location": "佛山",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.gdufs.edu.cn/",
-      "source": "seed:gdufs",
-      "dedup_key": "def27f0bcaf62e6c0ae4c5a047b0e084"
-    },
-    {
-      "score": 30,
-      "company": "比亚迪",
-      "title": "2027届校园招聘（自动化设备/测量工程师）",
-      "location": "深圳",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.sysu.edu.cn/",
-      "source": "seed",
-      "dedup_key": "3683e776bb7d75866945622eefb53e17"
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "289f01f05c0aa16402bb0e71f7510c91"
     },
     {
       "score": 20,
-      "company": "哈尔滨城市职业学院2026年",
-      "title": "哈尔滨城市职业学院2026年招聘公告",
-      "location": "广东",
+      "company": "北京图灵微创医疗科技有限公司",
+      "title": "高级产品专员",
+      "location": "",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628159",
-      "source": "scnu",
-      "dedup_key": "68bb4855f72ca1007c2263f9a26c6f3c"
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "346e69e2d6c718c630232492ba8a0e83"
     },
     {
       "score": 20,
-      "company": "精彩有你·共创未来—精锻科技2027人才",
-      "title": "精彩有你·共创未来—精锻科技2027人才招聘",
-      "location": "广东",
+      "company": "北京品驰医疗设备股份有限公司",
+      "title": "工艺工程师-柔性电极",
+      "location": "",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628141",
-      "source": "scnu",
-      "dedup_key": "cf27310557ca1dd6843f8c273cf49796"
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "0a4a1d57e766100976dccb4e3c0616fb"
     },
     {
       "score": 20,
-      "company": "On昂跑",
-      "title": "On昂跑 2027届秋季校园招聘简章",
-      "location": "广东",
+      "company": "山东东美医药有限公司",
+      "title": "中药厂质量负责人",
+      "location": "",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628146",
-      "source": "scnu",
-      "dedup_key": "332b0796b5179df2c4489fe2204321a7"
-    },
-    {
-      "score": 20,
-      "company": "白象食品",
-      "title": "白象食品 2027届校园招聘简章",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3627922",
-      "source": "scnu",
-      "dedup_key": "4d0688d425314f04f6852052aa59f272"
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "79556c06c8843c465b549204d424d468"
     }
   ],
   "source_errors": [],
   "raw_count": 94,
-  "fresh_count": 94
+  "fresh_count": 40
 }
