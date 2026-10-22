@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T01:15:09",
+  "updated_at": "2026-10-22T03:11:14",
   "jobs": [
     {
       "score": 40,
@@ -91,39 +91,59 @@
     },
     {
       "score": 20,
-      "company": "曲阜师范大学2026年博士人才",
-      "title": "曲阜师范大学2026年博士人才引进 华南师范大学专场招聘会",
+      "company": "晓禾科技（武汉）有限公司",
+      "title": "晓禾科技（武汉）有限公司招聘简章",
       "location": "广东",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3627341",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627524",
       "source": "scnu",
-      "dedup_key": "a59779884cd0ac1690646f25332f2b45"
+      "dedup_key": "ab998bc9a5f88d42a9c471e6918f07e5"
     },
     {
       "score": 20,
-      "company": "康复大学2026年下半年公开",
-      "title": "康复大学2026年下半年公开招聘专任教师公告",
+      "company": "湖南省 融资担保集团2027年度校园",
+      "title": "湖南省 融资担保集团2027年度校园招聘",
       "location": "广东",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3627220",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627586",
       "source": "scnu",
-      "dedup_key": "fb31160cb780a3fcda66cbfa5796df11"
+      "dedup_key": "c5856dec90f9c94e4ec5800178b50c7c"
     },
     {
       "score": 20,
-      "company": "厦门大学嘉庚学院2026-2027学年人才",
-      "title": "厦门大学嘉庚学院2026-2027学年人才招聘启事",
+      "company": "养生堂·农夫山泉2027行销",
+      "title": "养生堂·农夫山泉2027行销校招生提前批-简章",
       "location": "广东",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3627223",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627368",
       "source": "scnu",
-      "dedup_key": "c6f16f6b1e4eceef30ae8a2c55b22f93"
+      "dedup_key": "8d3c243c1c97eb575c3fc8e6c0e681e2"
+    },
+    {
+      "score": 20,
+      "company": "重庆巴川量子学校2026年",
+      "title": "重庆巴川量子学校2026年招聘简章",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627383",
+      "source": "scnu",
+      "dedup_key": "8990e47084b0f550e5bc98631bb8fa68"
     }
   ],
-  "source_errors": [],
+  "source_errors": [
+    {
+      "name": "gdufs_joblist",
+      "error": "adapter not registered"
+    },
+    {
+      "name": "gzhu_joblist",
+      "error": "adapter not registered"
+    }
+  ],
   "raw_count": 12,
   "fresh_count": 12
 }
