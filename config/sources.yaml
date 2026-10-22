@@ -1,5 +1,5 @@
-# 信源清单 v3（2026-10-22 实测定稿）
-# 已实装：scnu_home / gdufs_home（免登录静态抓取，已验证）+ seed_jobs（冷启动种子）
+# 信源清单 v4（2026-10-22 实测定稿）
+# 已实装：seed_jobs / scnu_home / gdufs_joblist / gzhu_joblist（免登录静态抓取，已验证）
 # 停用：iguopin / ncss / sasac / moka / beisen（SPA 或需登录态，开启只会产生失败告警）
 # 待启用：gxut_jiuyeb —— 在仓库 Secret 配置 JIUYEB_COOKIE 后把 enabled 改为 true
 sources:
@@ -12,9 +12,14 @@ sources:
     base_url: https://career.scnu.edu.cn/
     enabled: true
     priority: S
-  - name: gdufs_home
-    adapter: gdufs_home
-    base_url: https://career.gdufs.edu.cn/
+  - name: gdufs_joblist
+    adapter: gdufs_joblist
+    base_url: https://career.gdufs.edu.cn/web/Index/job-list
+    enabled: true
+    priority: S
+  - name: gzhu_joblist
+    adapter: gzhu_joblist
+    base_url: https://jy.gzhu.edu.cn/web/Index/job-list
     enabled: true
     priority: S
   - name: gxut_jiuyeb
