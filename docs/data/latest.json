@@ -1,32 +1,129 @@
 {
-  "updated_at": "2026-10-22T01:08:52",
-  "jobs": [],
-  "source_errors": [
+  "updated_at": "2026-10-22T01:15:09",
+  "jobs": [
     {
-      "name": "gxut_jiuyeb",
-      "error": "gxut_jiuyeb: 未配置 JIUYEB_COOKIE，本日该源跳过"
+      "score": 40,
+      "company": "广东电网",
+      "title": "2027年校园招聘（电气/自动化/仪器仪表类，含计量检测岗）",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/",
+      "source": "seed:scnu",
+      "dedup_key": "325314a6cd2b899bd8be2cc25984c0a2"
     },
     {
-      "name": "iguopin",
-      "error": "adapter not registered"
+      "score": 40,
+      "company": "南方电网",
+      "title": "2027届校园招聘统考（自动化/测控技术类）",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/",
+      "source": "seed:scnu",
+      "dedup_key": "feb366a895e329a967f9942f8b12ad4c"
     },
     {
-      "name": "ncss",
-      "error": "adapter not registered"
+      "score": 40,
+      "company": "广州视源电子科技",
+      "title": "2027届校园招聘（测试开发/硬件工程师方向）",
+      "location": "广州",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/",
+      "source": "seed:gdufs",
+      "dedup_key": "a60b485fcf232427d41246a4f15d9055"
     },
     {
-      "name": "sasac_hr",
-      "error": "adapter not registered"
+      "score": 40,
+      "company": "汇川技术",
+      "title": "2027届校园招聘（嵌入式/仪器研发工程师）",
+      "location": "深圳/苏州",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.gdufs.edu.cn/",
+      "source": "seed",
+      "dedup_key": "c641fb5d647715e5951622a2ad3eb230"
     },
     {
-      "name": "moka_campus",
-      "error": "adapter not registered"
+      "score": 40,
+      "company": "中国电器科学研究院",
+      "title": "2027届校园招聘（检测/仪器仪表工程师，央企编制）",
+      "location": "广州",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/",
+      "source": "seed",
+      "dedup_key": "85f49448b00ce2fb559c3bf4a818ff75"
     },
     {
-      "name": "beisen_campus",
-      "error": "adapter not registered"
+      "score": 40,
+      "company": "中广核工程有限公司",
+      "title": "2027届校园招聘（仪控工程师方向）",
+      "location": "深圳",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.sysu.edu.cn/",
+      "source": "seed",
+      "dedup_key": "9fbe4455a3171d09c91a61d8d7f7bb71"
+    },
+    {
+      "score": 30,
+      "company": "美的集团",
+      "title": "2027届美少年计划校园招聘（自动化/质量管理方向）",
+      "location": "佛山",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/",
+      "source": "seed:gdufs",
+      "dedup_key": "def27f0bcaf62e6c0ae4c5a047b0e084"
+    },
+    {
+      "score": 30,
+      "company": "比亚迪",
+      "title": "2027届校园招聘（自动化设备/测量工程师）",
+      "location": "深圳",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.sysu.edu.cn/",
+      "source": "seed",
+      "dedup_key": "3683e776bb7d75866945622eefb53e17"
+    },
+    {
+      "score": 20,
+      "company": "曲阜师范大学2026年博士人才",
+      "title": "曲阜师范大学2026年博士人才引进 华南师范大学专场招聘会",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627341",
+      "source": "scnu",
+      "dedup_key": "a59779884cd0ac1690646f25332f2b45"
+    },
+    {
+      "score": 20,
+      "company": "康复大学2026年下半年公开",
+      "title": "康复大学2026年下半年公开招聘专任教师公告",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627220",
+      "source": "scnu",
+      "dedup_key": "fb31160cb780a3fcda66cbfa5796df11"
+    },
+    {
+      "score": 20,
+      "company": "厦门大学嘉庚学院2026-2027学年人才",
+      "title": "厦门大学嘉庚学院2026-2027学年人才招聘启事",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3627223",
+      "source": "scnu",
+      "dedup_key": "c6f16f6b1e4eceef30ae8a2c55b22f93"
     }
   ],
-  "raw_count": 0,
-  "fresh_count": 0
+  "source_errors": [],
+  "raw_count": 12,
+  "fresh_count": 12
 }
