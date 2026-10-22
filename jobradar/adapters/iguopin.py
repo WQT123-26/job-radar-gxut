@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""jobradar.adapters.iguopin: 国聘免登录职位接口适配器（v6）
+"""jobradar.adapters.iguopin: 国聘免登录职位接口适配器（v7）
 
-签名算法逆向自官方前端 main.js（模块 43260 拦截器 + 模块 27712 密钥）：
+签名算法逆向自官方前端 main.js（模块 43260 拦截器 + 模块 27712）：
 Sign = HMAC-SHA256(HMAC-SHA256(MB, "YYYYMMDD:ts//180"), "ts|nonce|METHOD|path|pc")
-MB = "cu4&dYe*feF8t$E9m"（REACT_APP 独立密钥，v5 误用了旧包内另一处 MB）
-接口: POST https://api4.iguopin.com/api/jobs/v3/list
+MB = "cu4&dYe*feF8t$E9m"
+关键：拦截器仅对 baseURL === yi 生效，而 yi = https://gp-api.iguopin.com（v6 误用 api4）
 请求体: {"search": {...}}（外层 search 包装，来自岗位页组件真实调用）
 """
 from __future__ import annotations
@@ -25,7 +25,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
 _IGP_MB = "cu4&dYe*feF8t$E9m"
-_IGP_HOST = "https://api4.iguopin.com"
+_IGP_HOST = "https://gp-api.iguopin.com"
 
 
 def _igp_headers(method: str, path: str) -> dict:
