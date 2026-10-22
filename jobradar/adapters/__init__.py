@@ -44,3 +44,4 @@ def fetch_all(sources_cfg: dict):
 
 # 导入各适配器以完成注册
 from . import generic  # noqa: E402,F401
+from . import iguopin  # noqa: E402,F401
