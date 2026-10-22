@@ -1,0 +1,74 @@
+[
+  {
+    "company": "广东电网",
+    "title": "2027年校园招聘（电气/自动化/仪器仪表类，含计量检测岗）",
+    "location": "广东",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.scnu.edu.cn/",
+    "source": "seed:scnu"
+  },
+  {
+    "company": "南方电网",
+    "title": "2027届校园招聘统考（自动化/测控技术类）",
+    "location": "广东",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.scnu.edu.cn/",
+    "source": "seed:scnu"
+  },
+  {
+    "company": "广州视源电子科技",
+    "title": "2027届校园招聘（测试开发/硬件工程师方向）",
+    "location": "广州",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.gdufs.edu.cn/",
+    "source": "seed:gdufs"
+  },
+  {
+    "company": "美的集团",
+    "title": "2027届美少年计划校园招聘（自动化/质量管理方向）",
+    "location": "佛山",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.gdufs.edu.cn/",
+    "source": "seed:gdufs"
+  },
+  {
+    "company": "汇川技术",
+    "title": "2027届校园招聘（嵌入式/仪器研发工程师）",
+    "location": "深圳/苏州",
+    "salary": "",
+    "deadline": "",
+    "url": "https://www.gdufs.edu.cn/",
+    "source": "seed"
+  },
+  {
+    "company": "中国电器科学研究院",
+    "title": "2027届校园招聘（检测/仪器仪表工程师，央企编制）",
+    "location": "广州",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.scnu.edu.cn/",
+    "source": "seed"
+  },
+  {
+    "company": "中广核工程有限公司",
+    "title": "2027届校园招聘（仪控工程师方向）",
+    "location": "深圳",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.sysu.edu.cn/",
+    "source": "seed"
+  },
+  {
+    "company": "比亚迪",
+    "title": "2027届校园招聘（自动化设备/测量工程师）",
+    "location": "深圳",
+    "salary": "",
+    "deadline": "",
+    "url": "https://career.sysu.edu.cn/",
+    "source": "seed"
+  }
+]
