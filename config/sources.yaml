@@ -1,6 +1,6 @@
-# 信源清单 v4（2026-10-22 实测定稿）
-# 已实装：seed_jobs / scnu_home / gdufs_joblist / gzhu_joblist（免登录静态抓取，已验证）
-# 停用：iguopin / ncss / sasac / moka / beisen（SPA 或需登录态，开启只会产生失败告警）
+# 信源清单 v5（2026-10-22）
+# 已实装：seed_jobs / scnu_home / gdufs_joblist / gzhu_joblist / iguopin（均免登录抓取）
+# 停用：ncss / sasac / moka / beisen（SPA 或需登录态，开启只会产生失败告警）
 # 待启用：gxut_jiuyeb —— 在仓库 Secret 配置 JIUYEB_COOKIE 后把 enabled 改为 true
 sources:
   - name: seed_jobs
@@ -22,17 +22,17 @@ sources:
     base_url: https://jy.gzhu.edu.cn/web/Index/job-list
     enabled: true
     priority: S
+  - name: iguopin
+    adapter: iguopin
+    enabled: true
+    priority: A
+    note: 免登录接口 POST /api/jobs/v3/list（官方前端签名）
   - name: gxut_jiuyeb
     adapter: gxut_jiuyeb
     base_url: https://gxkejidx.jiuyeb.cn/Zhaopin/xiaozhao.html
     enabled: false
     priority: S
     note: 需 Secret JIUYEB_COOKIE
-  - name: iguopin
-    adapter: iguopin
-    enabled: false
-    priority: A
-    note: SPA 且接口需登录态，实测不可抓
   - name: ncss
     adapter: ncss
     enabled: false
