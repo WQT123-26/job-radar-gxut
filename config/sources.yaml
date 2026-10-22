@@ -1,55 +1,54 @@
-# 信源清单：每个源一个适配器
+# 信源清单 v3（2026-10-22 实测定稿）
+# 已实装：scnu_home / gdufs_home（免登录静态抓取，已验证）+ seed_jobs（冷启动种子）
+# 停用：iguopin / ncss / sasac / moka / beisen（SPA 或需登录态，开启只会产生失败告警）
+# 待启用：gxut_jiuyeb —— 在仓库 Secret 配置 JIUYEB_COOKIE 后把 enabled 改为 true
 sources:
+  - name: seed_jobs
+    adapter: seed_jobs
+    enabled: true
+    priority: S
+  - name: scnu_home
+    adapter: scnu_home
+    base_url: https://career.scnu.edu.cn/
+    enabled: true
+    priority: S
+  - name: gdufs_home
+    adapter: gdufs_home
+    base_url: https://career.gdufs.edu.cn/
+    enabled: true
+    priority: S
   - name: gxut_jiuyeb
     adapter: gxut_jiuyeb
     base_url: https://gxkejidx.jiuyeb.cn/Zhaopin/xiaozhao.html
-    enabled: true
+    enabled: false
     priority: S
+    note: 需 Secret JIUYEB_COOKIE
   - name: iguopin
     adapter: iguopin
-    base_url: https://www.iguopin.com
-    enabled: true
-    priority: S
+    enabled: false
+    priority: A
+    note: SPA 且接口需登录态，实测不可抓
   - name: ncss
     adapter: ncss
-    base_url: https://www.ncss.cn
-    enabled: true
-    priority: S
+    enabled: false
+    priority: A
+    note: 需学信网登录态
   - name: sasac_hr
     adapter: sasac_hr
-    base_url: http://www.sasac.gov.cn
-    enabled: true
+    enabled: false
     priority: A
+    note: JS 渲染，暂不可静态抓取
   - name: moka_campus
     adapter: moka_batch
-    enabled: true
-    priority: A
+    enabled: false
+    priority: B
   - name: beisen_campus
     adapter: beisen_batch
-    enabled: true
-    priority: A
+    enabled: false
+    priority: B
 
 guangdong_watchlist:
   listed_companies:
     - {name: 广州视源电子科技, moka_slug: cvte, listed: a_share}
     - {name: 深圳市汇川技术, moka_slug: inovance, listed: a_share}
     - {name: 大族激光, moka_slug: hanslaser, listed: a_share}
-    - {name: 广东拓斯达, moka_slug: topsstar, listed: a_share}
-    - {name: 珠海格力电器, moka_slug: gree, listed: a_share}
-    - {name: 美的集团, moka_slug: midea, listed: a_share}
-    - {name: TCL科技, moka_slug: tcl, listed: a_share}
-    - {name: 比亚迪, moka_slug: byd, listed: a_share}
-    - {name: 惠州亿纬锂能, moka_slug: eve, listed: a_share}
-    - {name: 欣旺达, moka_slug: sunwoda, listed: a_share}
-    - {name: 鹏鼎控股, moka_slug: avary, listed: a_share}
-    - {name: 生益科技, moka_slug: shengyi, listed: a_share}
-    - {name: 领益智造, moka_slug: lingyiitech, listed: a_share}
-  soe:
-    - {name: 中国电器科学研究院, type: 央企}
-    - {name: 中广核工程有限公司, type: 央企}
-    - {name: 南方电网, type: 央企, url: https://zhaopin.csg.cn}
-    - {name: 广东电网, type: 央企}
-    - {name: 中广核研究院, type: 央企}
-
-company_registry_file: config/company_registry.yaml
-manual_feeds_dir: data/manual_feeds
