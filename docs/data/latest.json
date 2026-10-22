@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T03:11:14",
+  "updated_at": "2026-10-22T03:21:59",
   "jobs": [
     {
       "score": 40,
@@ -134,16 +134,7 @@
       "dedup_key": "8990e47084b0f550e5bc98631bb8fa68"
     }
   ],
-  "source_errors": [
-    {
-      "name": "gdufs_joblist",
-      "error": "adapter not registered"
-    },
-    {
-      "name": "gzhu_joblist",
-      "error": "adapter not registered"
-    }
-  ],
-  "raw_count": 12,
-  "fresh_count": 12
+  "source_errors": [],
+  "raw_count": 52,
+  "fresh_count": 52
 }
