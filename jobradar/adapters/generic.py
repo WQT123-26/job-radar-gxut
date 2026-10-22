@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
-"""jobradar.adapters.generic: 高校就业网实抓适配器 + 种子岗位兜底（v3）
+"""jobradar.adapters.generic: 高校就业网实抓适配器 + 种子岗位兜底（v4）
 
 实测结论（2026-10-22，均已 curl 验证）：
-- 华南师范大学 career.scnu.edu.cn 主页静态包含 /detail/online?id= 岗位条目
-  （含"广东电网2027年校园招聘"等真实校招公告）→ 已实装 ✅
-- 广东外语外贸大学 career.gdufs.edu.cn 主页静态包含 job-detail?id= 与
-  jobs-brief-detail?id= 条目 → 已实装 ✅
+- 华南师范大学 career.scnu.edu.cn 主页静态包含 /detail/online?id= 条目 → 已实装 ✅
+- 广外 career.gdufs.edu.cn 与广州大学 jy.gzhu.edu.cn 为同一套就业平台，
+  /web/Index/job-list 返回 job-block 卡片（岗位名/发布时间/公司/薪资/学历/地点）→ 已实装 ✅
 - 国聘/ncss/BOSS直聘/国资小新：SPA 或需登录/违反平台协议 → 不做，如实跳过
-- 岗位公告标题通常无薪资 → 交由 core.select_daily 的公司质量分规则处理（≥75 分），标注"薪资待确认"
 """
 from __future__ import annotations
 
@@ -33,10 +31,69 @@ def _clean(t: str) -> str:
     return re.sub(r"\s+", " ", t or "").strip()
 
 
+def _extract_company(title: str) -> str:
+    m = re.split(r"\d{4}[-~—至]*\d{0,4}届|招聘|校招|宣讲|引进|简章|启事|公告", title)[0]
+    return _clean(m) or title
+
+
+def _parse_jobblock_cards(html: str, base_url: str, source: str) -> list:
+    """解析 web/Index/job-list 平台的 job-block 卡片（广外/广大共用）"""
+    jobs, seen = [], set()
+    pat = re.compile(
+        r'href="((?:job-detail|jobs-brief-detail|other-detail)\?id=\d+)"'
+        r'.*?job-name">([^<]+)</div>.*?job-time">([^<]+)</div>.*?'
+        r'job-company">([^<]+)</div>.*?job-salary">\s*([^<]*?)\s*</div>'
+        r'.*?job-edu">([^<]*)</div>.*?job-industry">([^<]*)</div>',
+        re.S,
+    )
+    for m in pat.finditer(html):
+        path, name, when, comp, salary, edu, loc = [_clean(g) for g in m.groups()]
+        if path in seen or not name:
+            continue
+        seen.add(path)
+        jobs.append({
+            "company": comp or _extract_company(name),
+            "title": name + (f"（{edu}）" if edu else ""),
+            "location": loc or "广东",
+            "salary": salary.replace("～", "-"),
+            "deadline": "",
+            "url": f"{base_url}/{path}",
+            "source": source,
+        })
+    return jobs
+
+
+@register("gdufs_joblist")
+class GdufsJobListAdapter:
+    """广东外语外贸大学就业网 job-list（job-block 平台，已实测 15+ 条/页）"""
+    BASE = "https://career.gdufs.edu.cn/web/Index/job-list"
+    ORIGIN = "https://career.gdufs.edu.cn"
+
+    def __init__(self, cfg: dict):
+        self.cfg = cfg
+
+    def fetch(self) -> list:
+        html = _get(self.BASE)
+        return _parse_jobblock_cards(html, self.ORIGIN, "gdufs")
+
+
+@register("gzhu_joblist")
+class GzhuJobListAdapter:
+    """广州大学就业网 job-list（同套平台，已实测 15+ 条/页）"""
+    BASE = "https://jy.gzhu.edu.cn/web/Index/job-list"
+    ORIGIN = "https://jy.gzhu.edu.cn"
+
+    def __init__(self, cfg: dict):
+        self.cfg = cfg
+
+    def fetch(self) -> list:
+        html = _get(self.BASE)
+        return _parse_jobblock_cards(html, self.ORIGIN, "gzhu")
+
+
 @register("scnu_home")
 class ScnuHomeAdapter:
     """华南师范大学就业网主页：/detail/online?id= 静态条目（已实测）"""
-
     URL = "https://career.scnu.edu.cn/"
     BASE = "https://career.scnu.edu.cn"
 
@@ -45,11 +102,8 @@ class ScnuHomeAdapter:
 
     def fetch(self) -> list:
         html = _get(self.URL)
-        jobs = []
-        seen = set()
-        for m in re.finditer(
-            r'href="(/detail/online\?id=\d+)"[^>]*title="([^"]+)"', html
-        ):
+        jobs, seen = [], set()
+        for m in re.finditer(r'href="(/detail/online\?id=\d+)"[^>]*title="([^"]+)"', html):
             path, title = m.group(1), _clean(m.group(2))
             if path in seen or not title:
                 continue
@@ -60,7 +114,7 @@ class ScnuHomeAdapter:
                 "company": _extract_company(title),
                 "title": title,
                 "location": "广东",
-                "salary": "",  # 公告无薪资 → 薪资待确认，走质量分规则
+                "salary": "",
                 "deadline": "",
                 "url": self.BASE + path,
                 "source": "scnu",
@@ -68,51 +122,9 @@ class ScnuHomeAdapter:
         return jobs
 
 
-@register("gdufs_home")
-class GdufsHomeAdapter:
-    """广东外语外贸大学就业网主页：job-detail / jobs-brief-detail 静态条目（已实测）"""
-
-    URL = "https://career.gdufs.edu.cn/"
-    BASE = "https://career.gdufs.edu.cn"
-
-    def __init__(self, cfg: dict):
-        self.cfg = cfg
-
-    def fetch(self) -> list:
-        html = _get(self.URL)
-        jobs, seen = [], set()
-        pat = re.compile(r'href="((?:job-detail|jobs-brief-detail)\?id=[^"]+)"[^>]*>')
-        # 相邻文本取标题：<a href=...>标题</a>
-        for m in re.finditer(
-            r'href="((?:job-detail|jobs-brief-detail)\?id=[^"]+)"[^>]*>([^<]{8,80})</a>', html
-        ):
-            path, title = m.group(1), _clean(m.group(2))
-            if path in seen or not title:
-                continue
-            seen.add(path)
-            if not re.search(r"招聘|校招|宣讲|人才|招聘会|简章", title):
-                continue
-            jobs.append({
-                "company": _extract_company(title),
-                "title": title,
-                "location": "广东",
-                "salary": "",
-                "deadline": "",
-                "url": self.BASE + "/" + path,
-                "source": "gdufs",
-            })
-        return jobs
-
-
-def _extract_company(title: str) -> str:
-    """从公告标题提取公司名：取“2026/2027届校招”或“招聘”前的主体"""
-    m = re.split(r"\d{4}[-~—至]*\d{0,4}届|招聘|校招|宣讲|引进|简章|启事|公告", title)[0]
-    return _clean(m) or title
-
-
 @register("seed_jobs")
 class SeedJobsAdapter:
-    """冷启动种子岗位：预先核实的 2027 届真实校招线索（保证首封邮件非空）"""
+    """冷启动种子岗位（data/seed_jobs.json）"""
 
     def __init__(self, cfg: dict):
         self.cfg = cfg
@@ -131,7 +143,6 @@ class SeedJobsAdapter:
 @register("gxut_jiuyeb")
 class GxutJiuyebAdapter:
     """广西科技大学就业网（需 JIUYEB_COOKIE 登录态，未配置则如实跳过）"""
-
     BASE = "https://gxkejidx.jiuyeb.cn"
 
     def __init__(self, cfg: dict):
