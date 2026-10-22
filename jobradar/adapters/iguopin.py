@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""jobradar.adapters.iguopin: 国聘免登录职位接口适配器（v5）
+"""jobradar.adapters.iguopin: 国聘免登录职位接口适配器（v6）
 
-签名算法逆向自官方前端 main.js：
+签名算法逆向自官方前端 main.js（模块 43260 拦截器 + 模块 27712 密钥）：
 Sign = HMAC-SHA256(HMAC-SHA256(MB, "YYYYMMDD:ts//180"), "ts|nonce|METHOD|path|pc")
+MB = "cu4&dYe*feF8t$E9m"（REACT_APP 独立密钥，v5 误用了旧包内另一处 MB）
 接口: POST https://api4.iguopin.com/api/jobs/v3/list
-注意：本适配器在沙箱 IP 下被服务端静默拦截（data:null），
-     在 GitHub Actions 出口 IP 下待 Run 验证；失败会如实上报，不影响其他信源。
+请求体: {"search": {...}}（外层 search 包装，来自岗位页组件真实调用）
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ from . import register
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 
-_IGP_MB = "115WVZvg"
+_IGP_MB = "cu4&dYe*feF8t$E9m"
 _IGP_HOST = "https://api4.iguopin.com"
 
 
@@ -46,7 +46,7 @@ def _igp_headers(method: str, path: str) -> dict:
 
 @register("iguopin")
 class IguopinAdapter:
-    """国聘免登录职位列表（POST /api/jobs/v3/list，官方签名头）"""
+    """国聘免登录职位列表（POST /api/jobs/v3/list，search 包装请求体）"""
     PATH = "/api/jobs/v3/list"
 
     def __init__(self, cfg: dict):
@@ -55,7 +55,8 @@ class IguopinAdapter:
     def fetch(self) -> list:
         jobs = []
         for page in (1, 2, 3):
-            payload = _json.dumps({"page": page, "page_size": 20})
+            payload = _json.dumps({"search": {"page": page, "page_size": 20,
+                                              "keyword": "", "with_offline": True}})
             r = requests.post(_IGP_HOST + self.PATH, data=payload.encode("utf-8"),
                               headers=_igp_headers("POST", self.PATH), timeout=25)
             r.raise_for_status()
