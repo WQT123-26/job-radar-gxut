@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-10-22T13:12:54",
+  "updated_at": "2026-10-22T13:14:52",
   "jobs": [
     {
       "score": 20,
-      "company": "山东爱舒乐卫生用品有限责任公司",
-      "title": "生产设备管理工程师（水刺布）",
+      "company": "北京吉天仪器有限公司",
+      "title": "售后技术支持（化学分析仪器）",
       "location": "",
       "salary": "",
       "deadline": "",
       "url": "https://www.iguopin.com/job-detail?id=",
       "source": "iguopin",
-      "dedup_key": "289f01f05c0aa16402bb0e71f7510c91"
+      "dedup_key": "244e9144661d685d94a3c353fd4cc9dd"
     },
     {
       "score": 20,
-      "company": "北京图灵微创医疗科技有限公司",
-      "title": "高级产品专员",
+      "company": "微岩医学科技(北京)有限公司",
+      "title": "临床准入经理-济南",
       "location": "",
       "salary": "",
       "deadline": "",
       "url": "https://www.iguopin.com/job-detail?id=",
       "source": "iguopin",
-      "dedup_key": "346e69e2d6c718c630232492ba8a0e83"
+      "dedup_key": "5e58f38cb46b89af57a9b382b18918f6"
     },
     {
       "score": 20,
-      "company": "北京品驰医疗设备股份有限公司",
-      "title": "工艺工程师-柔性电极",
+      "company": "四川定科制药有限公司",
+      "title": "生产计划员",
       "location": "",
       "salary": "",
       "deadline": "",
       "url": "https://www.iguopin.com/job-detail?id=",
       "source": "iguopin",
-      "dedup_key": "0a4a1d57e766100976dccb4e3c0616fb"
+      "dedup_key": "fd348f28f3da43161e6327d77fd59796"
     },
     {
       "score": 20,
-      "company": "山东东美医药有限公司",
-      "title": "中药厂质量负责人",
+      "company": "丽珠集团(宁夏)制药有限公司",
+      "title": "产品/现场QA",
       "location": "",
       "salary": "",
       "deadline": "",
       "url": "https://www.iguopin.com/job-detail?id=",
       "source": "iguopin",
-      "dedup_key": "79556c06c8843c465b549204d424d468"
+      "dedup_key": "dec01b5ec8e2e405d0c122324e362201"
     }
   ],
   "source_errors": [],
   "raw_count": 94,
-  "fresh_count": 40
+  "fresh_count": 7
 }
