@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-10-22T23:53:19",
-  "jobs": [],
+  "updated_at": "2026-10-23T10:20:26",
+  "jobs": [
+    {
+      "score": 20,
+      "company": "深圳市蓝禾技术有限公司",
+      "title": "深圳市蓝禾技术有限公司招聘简章",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3628361",
+      "source": "scnu",
+      "dedup_key": "8ca3da00ac9a2d48518eeabd5934502c"
+    },
+    {
+      "score": 20,
+      "company": "仰恩大学2026年秋季",
+      "title": "仰恩大学2026年秋季招聘启事（人文社会科学类及自然科学类）",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3628219",
+      "source": "scnu",
+      "dedup_key": "d22bd32447e43c7f8f7a244235bf9d26"
+    },
+    {
+      "score": 20,
+      "company": "广州长步道光学科技有限公司",
+      "title": "欧美销售工程师（本科生）",
+      "location": "光学仪器及眼镜制造",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11345",
+      "source": "gdufs",
+      "dedup_key": "e5ab0f9f7c4b2243b83349d31451d2fa"
+    },
+    {
+      "score": 20,
+      "company": "深圳前海慕迪管理有限公司",
+      "title": "moodyti...（硕士研究生,本科生）",
+      "location": "纺织、服装及日用品专门零售",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://jy.gzhu.edu.cn/job-detail?id=157071",
+      "source": "gzhu",
+      "dedup_key": "9c496e9cde0dbfcb9230e758ff186b12"
+    }
+  ],
   "source_errors": [],
-  "raw_count": 54,
-  "fresh_count": 0
+  "raw_count": 94,
+  "fresh_count": 44
 }
