@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-10-23T23:52:18",
-  "jobs": [],
+  "updated_at": "2026-10-24T10:15:21",
+  "jobs": [
+    {
+      "score": 20,
+      "company": "广州广汽商贸物流有限公司",
+      "title": "算法工程师（仓...（本科生）",
+      "location": "道路货物运输",
+      "salary": "1万元以上",
+      "deadline": "",
+      "url": "https://jy.gzhu.edu.cn/job-detail?id=157042",
+      "source": "gzhu",
+      "dedup_key": "2237407eba727de233ea0ca25a60998c"
+    },
+    {
+      "score": 20,
+      "company": "中铝国际工程股份有限公司",
+      "title": "市场开发经理",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "18f84d33399e556954a65e115380b65c"
+    },
+    {
+      "score": 20,
+      "company": "中铝国际工程股份有限公司",
+      "title": "纪检监督岗",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "a93c62e914a54217d1b977c173237cbc"
+    },
+    {
+      "score": 20,
+      "company": "中国五洲工程设计集团有限公司",
+      "title": "费用控制工程师(J15371)",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin",
+      "dedup_key": "c7fc778cf3a44fdf879d082730179f59"
+    }
+  ],
   "source_errors": [],
-  "raw_count": 54,
-  "fresh_count": 0
+  "raw_count": 94,
+  "fresh_count": 41
 }
