@@ -1,52 +1,7 @@
 {
-  "updated_at": "2026-10-25T10:14:20",
-  "jobs": [
-    {
-      "score": 20,
-      "company": "广州银行",
-      "title": "广州银行2027届校园招聘公告",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628559",
-      "source": "scnu",
-      "dedup_key": "7601f4ebaf6f2fd2121b55d31d7f3004"
-    },
-    {
-      "score": 20,
-      "company": "湖南财信金融控股集团有限公司",
-      "title": "湖南财信金融控股集团有限公司2027届“晨星计划”全球校园招聘",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628807",
-      "source": "scnu",
-      "dedup_key": "9d8a57dcb59bffc5a26f686163811bf1"
-    },
-    {
-      "score": 20,
-      "company": "广告投放实习生",
-      "title": "广告投放实习生招聘",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=1078607",
-      "source": "scnu",
-      "dedup_key": "adbb2885c15ee7b21131c6f013d8d601"
-    },
-    {
-      "score": 20,
-      "company": "广东省湛江第一中学2026年秋季",
-      "title": "广东省湛江第一中学2026年秋季招聘教职工24名",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628936",
-      "source": "scnu",
-      "dedup_key": "a7e59d126a85357ecca64845ac768ec9"
-    }
-  ],
+  "updated_at": "2026-10-25T23:48:11",
+  "jobs": [],
   "source_errors": [],
-  "raw_count": 94,
-  "fresh_count": 27
+  "raw_count": 54,
+  "fresh_count": 0
 }
