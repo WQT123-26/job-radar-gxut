@@ -1,52 +1,19 @@
 {
-  "updated_at": "2026-10-26T10:28:46",
+  "updated_at": "2026-10-26T23:55:52",
   "jobs": [
     {
       "score": 20,
-      "company": "市场研究员 [俭学优先] 沈博绝丽线上",
-      "title": "市场研究员 [俭学优先] 沈博绝丽线上招聘简章",
+      "company": "晓禾教育",
+      "title": "晓禾教育2027届秋季校招",
       "location": "广东",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3629400",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3629145",
       "source": "scnu",
-      "dedup_key": "519346f54682824d4ae2e8e4f455d049"
-    },
-    {
-      "score": 20,
-      "company": "启诺迪 2027校园",
-      "title": "启诺迪 2027校园招聘",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3628646",
-      "source": "scnu",
-      "dedup_key": "f22b61a162d569320046e01ee852c7ec"
-    },
-    {
-      "score": 20,
-      "company": "广东利玮医药有限公司线上双选会",
-      "title": "广东利玮医药有限公司线上双选会招聘简章",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3629163",
-      "source": "scnu",
-      "dedup_key": "115cd8b578ce6221500e1b6bd2d5e72d"
-    },
-    {
-      "score": 20,
-      "company": "广东伟经日用品有限公司",
-      "title": "广东伟经日用品有限公司招聘简章",
-      "location": "广东",
-      "salary": "",
-      "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3629295",
-      "source": "scnu",
-      "dedup_key": "e19b3b3dbc8e8f8365dd15489f69f3f5"
+      "dedup_key": "0d14be3139025b005fb9a7418ad4b3de"
     }
   ],
   "source_errors": [],
-  "raw_count": 94,
-  "fresh_count": 48
+  "raw_count": 54,
+  "fresh_count": 1
 }
