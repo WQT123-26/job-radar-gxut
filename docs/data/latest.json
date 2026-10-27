@@ -1,19 +1,52 @@
 {
-  "updated_at": "2026-10-26T23:55:52",
+  "updated_at": "2026-10-27T10:26:32",
   "jobs": [
     {
       "score": 20,
-      "company": "晓禾教育",
-      "title": "晓禾教育2027届秋季校招",
+      "company": "凯乐石",
+      "title": "凯乐石2027届校园招聘 ——努力工作，拼命玩，活得痛快",
       "location": "广东",
       "salary": "",
       "deadline": "",
-      "url": "https://career.scnu.edu.cn/detail/online?id=3629145",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3629824",
       "source": "scnu",
-      "dedup_key": "0d14be3139025b005fb9a7418ad4b3de"
+      "dedup_key": "5a6237c7c35790644ff2be1085fd2212"
+    },
+    {
+      "score": 20,
+      "company": "中国人寿深圳市分公司2027年度校园",
+      "title": "中国人寿深圳市分公司2027年度校园招聘火热进行中！",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3629588",
+      "source": "scnu",
+      "dedup_key": "a3dde0e473045874db5f5641c7fd68bd"
+    },
+    {
+      "score": 20,
+      "company": "安徽联通2027校园",
+      "title": "安徽联通2027校园招聘",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3624500",
+      "source": "scnu",
+      "dedup_key": "e4af1919e24673d7cb9e425636227f42"
+    },
+    {
+      "score": 20,
+      "company": "校园",
+      "title": "校园宣讲会丨顺德区容山中学10大学科等优秀的你！有编制+大平台+好发展！",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3629753",
+      "source": "scnu",
+      "dedup_key": "24642baf09f4f5d0e79e4eaff6fcafb7"
     }
   ],
   "source_errors": [],
-  "raw_count": 54,
-  "fresh_count": 1
+  "raw_count": 93,
+  "fresh_count": 45
 }
