@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-10-27T23:56:13",
-  "jobs": [],
+  "updated_at": "2026-10-28T10:30:41",
+  "jobs": [
+    {
+      "score": 20,
+      "company": "肇庆市衡立高级中学2027年教师",
+      "title": "肇庆市衡立高级中学2027年教师招聘",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3630637",
+      "source": "scnu",
+      "dedup_key": "a79481aba3f6def737d609b1b0cc8b7e"
+    },
+    {
+      "score": 20,
+      "company": "2026年 广州轨道交通周 轨道交通人才专场",
+      "title": "2026年 广州轨道交通周 轨道交通人才专场招聘会公告",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3630536",
+      "source": "scnu",
+      "dedup_key": "2318c9b91340db2d578f376bb32e3364"
+    },
+    {
+      "score": 20,
+      "company": "卓越教育集团",
+      "title": "卓越教育集团2027届招聘简章",
+      "location": "广东",
+      "salary": "",
+      "deadline": "",
+      "url": "https://career.scnu.edu.cn/detail/online?id=3630556",
+      "source": "scnu",
+      "dedup_key": "86237713223da6e92a47be9b00d5b811"
+    },
+    {
+      "score": 20,
+      "company": "深圳秋田泛太航运物流有限公司",
+      "title": "商务专员（本科生）",
+      "location": "运输代理业",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11373",
+      "source": "gdufs",
+      "dedup_key": "3954123c99d507a7d00271a7eb0cc9ca"
+    }
+  ],
   "source_errors": [],
-  "raw_count": 53,
-  "fresh_count": 0
+  "raw_count": 94,
+  "fresh_count": 63
 }
