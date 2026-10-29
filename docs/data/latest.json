@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-10-28T23:59:32",
-  "jobs": [],
+  "updated_at": "2026-10-29T10:32:25",
+  "jobs": [
+    {
+      "score": 20,
+      "company": "远峰科技股份有限公司",
+      "title": "德语项目经理（本科生）",
+      "location": "软件开发",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11377",
+      "source": "gdufs",
+      "dedup_key": "6ece46e7733e28bc8c44ba800db41e58"
+    },
+    {
+      "score": 20,
+      "company": "成都市武侯区春蕾教育培训学校",
+      "title": "班课英语教师（成都）（硕士研究生,本科生）",
+      "location": "技能培训、教育辅助及其他教育",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11376",
+      "source": "gdufs",
+      "dedup_key": "db818d01a471d67e98a0723c46d399a7"
+    },
+    {
+      "score": 20,
+      "company": "上商控股集团有限公司",
+      "title": "海运船务岗（硕士研究生,二学位,本科生）",
+      "location": "电力供应",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=8163",
+      "source": "gdufs",
+      "dedup_key": "1fb923bee7272389c6215edb7ef1f92e"
+    },
+    {
+      "score": 20,
+      "company": "上商控股集团有限公司",
+      "title": "贸易业务岗管培生（硕士研究生,二学位,本科生）",
+      "location": "电力供应",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=8162",
+      "source": "gdufs",
+      "dedup_key": "890de94021946cd51914c78e5196daa6"
+    }
+  ],
   "source_errors": [],
-  "raw_count": 54,
-  "fresh_count": 0
+  "raw_count": 94,
+  "fresh_count": 48
 }
