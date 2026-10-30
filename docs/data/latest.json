@@ -1,7 +1,142 @@
 {
-  "updated_at": "2026-10-29T23:59:44",
-  "jobs": [],
+  "updated_at": "2026-10-30T05:44:11",
+  "slot": "午间",
+  "jobs": [
+    {
+      "score": 20,
+      "dedup_key": "6e7607b8009441df7032a0c7d00ce5db",
+      "company": "广东砹脉数字营销有限公司",
+      "title": "AI导演（硕士研究生,二学位,本科生）",
+      "location": "其他批发业",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11300",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "f8b43fc5efdd381fa7eb2548e4027283",
+      "company": "广东砹脉数字营销有限公司",
+      "title": "AI 抽卡师（硕士研究生,二学位,本科生）",
+      "location": "其他批发业",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11301",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "03c8996dcfaf64e36baddea110a6210a",
+      "company": "中山市瑞吉食品有限公司",
+      "title": "电商管培生（本科生）",
+      "location": "糖果、巧克力及蜜饯制造",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11265",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "837c15e1d8d58deae011348224256937",
+      "company": "中山市瑞吉食品有限公司",
+      "title": "市场营销管培生（本科生）",
+      "location": "糖果、巧克力及蜜饯制造",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11259",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "5672537a023cda422a9bc2606ca2337e",
+      "company": "中铁建南沙投资发展有限公司",
+      "title": "营销管理岗（本科生）",
+      "location": "房地产开发经营",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=9849",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "5d7868548931234f973d5ef721fed121",
+      "company": "中铁建南沙投资发展有限公司",
+      "title": "法律合规岗（硕士研究生,二学位,本科生）",
+      "location": "房地产开发经营",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11225",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "dfc751e6cdbbbe954c211baa2d4d2ee4",
+      "company": "保利和润房地产投资顾问有限公司",
+      "title": "经纪管培生（广...（硕士研究生,二学位,本科生）",
+      "location": "房地产开发经营",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11279",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "4da922be591740ace363d55efa84c680",
+      "company": "中国人民财产保险股份有限公司梅州市分公司",
+      "title": "管培生（理赔方向）（本科生）",
+      "location": "财产保险",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=9146",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "785ca344187fefcc602de09eb7b44428",
+      "company": "中国人民财产保险股份有限公司梅州市分公司",
+      "title": "管培生（营销方向）（本科生）",
+      "location": "财产保险",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=9147",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "9ceaf1364342c827e078119fa037543d",
+      "company": "保利和润房地产投资顾问有限公司",
+      "title": "数字营销管培生（硕士研究生,二学位,本科生）",
+      "location": "房地产开发经营",
+      "salary": "8000-10000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=11273",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "4880811247dc4bdfe881d7547265320b",
+      "company": "多益网络有限公司",
+      "title": "综合文员（硕士研究生,本科生）",
+      "location": "软件和信息技术服务业",
+      "salary": "6000-8000元/月",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=9818",
+      "source": "gdufs"
+    },
+    {
+      "score": 20,
+      "dedup_key": "c7c7a6fa4d1bc39ad318cb4686b27da7",
+      "company": "多益网络有限公司",
+      "title": "游戏运营（硕士研究生,本科生）",
+      "location": "软件和信息技术服务业",
+      "salary": "1万元以上",
+      "deadline": "",
+      "url": "https://career.gdufs.edu.cn/job-detail?id=9817",
+      "source": "gdufs"
+    }
+  ],
+  "pool_remaining": 126,
   "source_errors": [],
-  "raw_count": 54,
-  "fresh_count": 0
+  "raw_count": 254,
+  "fresh_count": 12
 }
