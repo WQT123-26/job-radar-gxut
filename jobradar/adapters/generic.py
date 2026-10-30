@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
-"""jobradar.adapters.generic: 高校就业网实抓适配器 + 种子岗位兜底（v4）
+"""jobradar.adapters.generic: 高校就业网实抓适配器 + 种子岗位兜底（v5）
 
-实测结论（2026-10-22，均已 curl 验证）：
-- 华南师范大学 career.scnu.edu.cn 主页静态包含 /detail/online?id= 条目 → 已实装 ✅
+实测结论（均已 curl 验证）：
+- 华南师范大学 career.scnu.edu.cn 主页静态包含 /detail/online?id= 条目 → 已实装
 - 广外 career.gdufs.edu.cn 与广州大学 jy.gzhu.edu.cn 为同一套就业平台，
-  /web/Index/job-list 返回 job-block 卡片（岗位名/发布时间/公司/薪资/学历/地点）→ 已实装 ✅
-- 国聘/ncss/BOSS直聘/国资小新：SPA 或需登录/违反平台协议 → 不做，如实跳过
+  /web/Index/job-list 返回 job-block 卡片（岗位名/发布时间/公司/薪资/学历/地点）
+  → v5 起翻 5 页抓取：每页约 20 条且页间零重叠，约 100 条/校，支撑每日三批推送
+- 国聘（iguopin）走独立适配器 jobradar/adapters/iguopin.py
+- ncss/BOSS直聘/国资小新：需登录/违反平台协议 → 不做，如实跳过
 """
 from __future__ import annotations
 
@@ -63,32 +65,51 @@ def _parse_jobblock_cards(html: str, base_url: str, source: str) -> list:
     return jobs
 
 
+def _fetch_jobblock_pages(base: str, origin: str, source: str, max_pages: int = 5) -> list:
+    """翻页抓取 job-block 平台列表：页间零重叠，按 URL 去重"""
+    jobs, seen_url = [], set()
+    for page in range(1, max_pages + 1):
+        url = base if page == 1 else "%s?page=%d" % (base, page)
+        try:
+            html = _get(url)
+        except Exception:
+            break
+        new = [j for j in _parse_jobblock_cards(html, origin, source)
+               if j["url"] not in seen_url]
+        for j in new:
+            seen_url.add(j["url"])
+        jobs.extend(new)
+        if not new:
+            break
+    return jobs
+
+
 @register("gdufs_joblist")
 class GdufsJobListAdapter:
-    """广东外语外贸大学就业网 job-list（job-block 平台，已实测 15+ 条/页）"""
+    """广东外语外贸大学就业网 job-list（翻 5 页，约 100 条/次）"""
     BASE = "https://career.gdufs.edu.cn/web/Index/job-list"
     ORIGIN = "https://career.gdufs.edu.cn"
+    MAX_PAGES = 5
 
     def __init__(self, cfg: dict):
         self.cfg = cfg
 
     def fetch(self) -> list:
-        html = _get(self.BASE)
-        return _parse_jobblock_cards(html, self.ORIGIN, "gdufs")
+        return _fetch_jobblock_pages(self.BASE, self.ORIGIN, "gdufs", self.MAX_PAGES)
 
 
 @register("gzhu_joblist")
 class GzhuJobListAdapter:
-    """广州大学就业网 job-list（同套平台，已实测 15+ 条/页）"""
+    """广州大学就业网 job-list（同套平台，翻 5 页，约 100 条/次）"""
     BASE = "https://jy.gzhu.edu.cn/web/Index/job-list"
     ORIGIN = "https://jy.gzhu.edu.cn"
+    MAX_PAGES = 5
 
     def __init__(self, cfg: dict):
         self.cfg = cfg
 
     def fetch(self) -> list:
-        html = _get(self.BASE)
-        return _parse_jobblock_cards(html, self.ORIGIN, "gzhu")
+        return _fetch_jobblock_pages(self.BASE, self.ORIGIN, "gzhu", self.MAX_PAGES)
 
 
 @register("scnu_home")
