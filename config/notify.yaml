@@ -1,4 +1,19 @@
-# 推送与提醒配置
+# 推送与提醒配置 v3：每天三次（早/中/晚），每批从待推池取 batch_size 条
+push:
+  # 每次推送的岗位数量（三批互不重复，池内顺延）
+  batch_size: 12
+  # 同一公司/同一城市在本批内的数量上限，避免一批里全是同一家
+  max_same_company: 2
+  max_same_city: 5
+  # 待推池容量上限（超出按分数截断）
+  pool_cap: 600
+
+# 三个时段（北京时间），用于日志与邮件标题标识
+slots:
+  morning: "07:30"
+  noon: "12:30"
+  evening: "18:30"
+
 notify:
   email:
     enabled: true
@@ -6,10 +21,10 @@ notify:
     smtp_host: smtp.qq.com
     smtp_port: 465
     use_ssl: true
-    from_user_env: QQ_MAIL_USER      # GitHub Secret
-    auth_code_env: QQ_MAIL_AUTH_CODE # GitHub Secret（QQ邮箱授权码）
-    to_env: MAIL_TO                  # 主收件人
-    cc_env: MAIL_CC                  # 抄送
+    from_user_env: QQ_MAIL_USER        # GitHub Secret
+    auth_code_env: QQ_MAIL_AUTH_CODE   # GitHub Secret（QQ邮箱授权码）
+    to_env: MAIL_TO                    # 主收件人
+    cc_env: MAIL_CC                    # 抄送
     subject_prefix: "[求职雷达]"
   reminder:
     deadline_alert:
@@ -25,8 +40,7 @@ notify:
     sort_by: [score, deadline]
     include_pages_link: true
 
-quota:
-  # 每日推荐配额：按 tier 分配（对齐 profile.yaml 6-8-4-2）
+quota:              # 兼容旧字段（新流程以 push.batch_size 为准）
   S: 6
   A: 8
   B: 4
