@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-10-31T10:58:13",
- "count": 149,
+ "updated_at": "2026-10-31T23:57:29",
+ "count": 137,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "258397802b36fdf95b20702b09c29f61",
-   "company": "广东砹脉数字营销有限公司",
-   "title": "AI策略岗（硕士研究生,二学位,本科生）",
-   "location": "其他批发业",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11292",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "83d261a1693e943268480199aa3ff3a3",
-   "company": "广东砹脉数字营销有限公司",
-   "title": "AI驯化师（硕士研究生,二学位,本科生）",
-   "location": "其他批发业",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11291",
-   "source": "gdufs"
-  },
   {
    "score": 20,
    "dedup_key": "d361512a71c3a8a786e1fb74acb2e1d8",
@@ -67,39 +45,6 @@
    "deadline": "",
    "url": "https://career.gdufs.edu.cn/job-detail?id=11286",
    "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "acb4af00f442fe52490672607e83d910",
-   "company": "乐禾食品集团股份有限公司",
-   "title": "行政岗（硕士研究生,本科生）",
-   "location": "农、林、牧、渔专业及辅助性活动",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11255",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "bae34c27a86e2dee0ac6a421517b5eeb",
-   "company": "深圳瑞圣特电子科技有限公司",
-   "title": "助理电子工程师（硕士研究生）",
-   "location": "日用杂品制造",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156935",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "a6e73a7c130bb052a9e4ba487777738a",
-   "company": "深圳瑞圣特电子科技有限公司",
-   "title": "助理自动化工程师（本科生）",
-   "location": "日用杂品制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156934",
-   "source": "gzhu"
   },
   {
    "score": 20,
@@ -158,50 +103,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "749f7cbca49b462ba3a2d8d2ac53078c",
-   "company": "广东万和新电气股份有限公司",
-   "title": "电子商务类（硕士研究生,二学位,本科生）",
-   "location": "家用电力器具制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156917",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "95bb909065024fe58c9d8aad6731c472",
-   "company": "广东万和新电气股份有限公司",
-   "title": "国际营销类（二学位,本科生）",
-   "location": "家用电力器具制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156918",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "fe056d25fd3a5d4e37e455700c0fe5c5",
-   "company": "华勤技术股份有限公司",
-   "title": "平台类（硕士研究生,本科生）",
-   "location": "软件和信息技术服务业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=152411",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "6a1882f6bf9926ac9e48039c2048a618",
-   "company": "华勤技术股份有限公司",
-   "title": "测试类（硕士研究生,本科生）",
-   "location": "软件和信息技术服务业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=152410",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
    "dedup_key": "05d9b7ddc8545370ac504037eb5e7cf9",
    "company": "华勤技术股份有限公司",
    "title": "结构类（硕士研究生,本科生）",
@@ -242,39 +143,6 @@
    "salary": "1万元以上",
    "deadline": "",
    "url": "https://jy.gzhu.edu.cn/job-detail?id=152406",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f2ad0a65e8c651bd76cc40c705f92251",
-   "company": "广州市泷迪贸易有限公司",
-   "title": "行政专员助理（本科生）",
-   "location": "机械设备、五金产品及电子产品批发",
-   "salary": "2000元以下/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156827",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "c516872967b7854065ba8505ee4fcd3e",
-   "company": "中建丝路交通建设投资（成都）有限公司",
-   "title": "项目管理岗（博士研究生,硕士研究生,本科生）",
-   "location": "铁路、道路、隧道和桥梁工程建筑",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156881",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "19ce563ad5ac00121e0e64be01f828a8",
-   "company": "河南森源电气股份有限公司",
-   "title": "电气/机械研发工程师（硕士研究生,本科生）",
-   "location": "其他电气机械及器材制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156850",
    "source": "gzhu"
   },
   {
