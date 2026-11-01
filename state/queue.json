@@ -1,51 +1,7 @@
 {
- "updated_at": "2026-11-01T11:01:26",
- "count": 115,
+ "updated_at": "2026-11-01T23:58:28",
+ "count": 103,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "0b2b727ea2e6e5e741c092af5638abdc",
-   "company": "深圳瑞圣特电子科技有限公司",
-   "title": "PMC计划员（本科生）",
-   "location": "日用杂品制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156925",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "821d2f03f3398a3527990a9f399362b7",
-   "company": "惠州雷士光电科技有限公司",
-   "title": "产品专员（本科生）",
-   "location": "照明器具制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156690",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "0570a852c56e6571f94bd7ec42ba34bd",
-   "company": "粤芯半导体技术股份有限公司",
-   "title": "工艺整合工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "52286b1cc59702d52f216f54e8a0d810",
-   "company": "粤芯半导体技术股份有限公司",
-   "title": "工艺工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "eab4a03692c344047ab95a4a57162947",
@@ -62,28 +18,6 @@
    "dedup_key": "8784aa9a9cd9b8303f0ec5ef7b864b80",
    "company": "粤芯半导体技术股份有限公司",
    "title": "设备工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d4df656908794340e5ac8ff7f12df94f",
-   "company": "广电运通集团股份有限公司",
-   "title": "机械工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "ff3568c5083a417182069d4d874c6476",
-   "company": "广电运通集团股份有限公司",
-   "title": "硬件工程师",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -136,39 +70,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "2b5e9604d999da41742592b63810660e",
-   "company": "康方药业有限公司",
-   "title": "运营",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "38568b3f1d06a0e66eed8e5928191b16",
-   "company": "猛士科技（襄阳）有限公司",
-   "title": "零售储备营销管培生（南昌）-猛士汽车",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "78399da3a1c16a9ec07f4c58ab794bbe",
-   "company": "康方药业有限公司",
-   "title": "商务及KA",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "765526915c6a465be94bed668615f58d",
    "company": "康方药业有限公司",
    "title": "策略中心-商保",
@@ -213,42 +114,9 @@
   },
   {
    "score": 20,
-   "dedup_key": "fe7716fe0fed0f5c3dea6bd0a8eae861",
-   "company": "中建八局华南建设有限公司",
-   "title": "职能管理类",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d98f5d73763dbe9340d168e3494ecbf4",
-   "company": "中建八局华南建设有限公司",
-   "title": "项目工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "cc9dba0a83190a71a76d4595f765a9d5",
    "company": "中建八局华南建设有限公司",
    "title": "战略发展类",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "cb73f8cecef63ec679bfac55fa8e55f6",
-   "company": "猛士科技（襄阳）有限公司",
-   "title": "零售储备营销管培生（宁波）-猛士汽车",
    "location": "",
    "salary": "",
    "deadline": "",
