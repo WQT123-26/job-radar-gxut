@@ -1,51 +1,7 @@
 {
- "updated_at": "2026-11-01T05:17:42",
- "count": 126,
+ "updated_at": "2026-11-01T11:01:26",
+ "count": 115,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "d4f8864e06281b550783181d4db1105a",
-   "company": "广东砹脉数字营销有限公司",
-   "title": "直播运营（硕士研究生,二学位,本科生）",
-   "location": "其他批发业",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11287",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "9b1cedf642bd3ca948383fb233919c38",
-   "company": "广东砹脉数字营销有限公司",
-   "title": "项目PM（硕士研究生,本科生）",
-   "location": "其他批发业",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11286",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3869a447fe8cd22f9fa185ec97066168",
-   "company": "深圳瑞圣特电子科技有限公司",
-   "title": "包装技术员（本科生）",
-   "location": "日用杂品制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156933",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "ddbe42ecf24697c1821a89414f8e09e3",
-   "company": "深圳瑞圣特电子科技有限公司",
-   "title": "品质技术员（本科生）",
-   "location": "日用杂品制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156927",
-   "source": "gzhu"
-  },
   {
    "score": 20,
    "dedup_key": "0b2b727ea2e6e5e741c092af5638abdc",
@@ -55,94 +11,6 @@
    "salary": "6000-8000元/月",
    "deadline": "",
    "url": "https://jy.gzhu.edu.cn/job-detail?id=156925",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "691cf3e758e7ce65a131e088e3026f82",
-   "company": "华勤技术股份有限公司",
-   "title": "软件类（硕士研究生,本科生）",
-   "location": "软件和信息技术服务业",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=152405",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "c6c2d969dd3f703f4cbc41b991e39fdb",
-   "company": "华勤技术股份有限公司",
-   "title": "工程技术类（硕士研究生,本科生）",
-   "location": "软件和信息技术服务业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=152406",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "69ecb9d6a3660e87c2dd314c2d883a5c",
-   "company": "佛山市国星光电股份有限公司",
-   "title": "研发工程师助理（本科生）",
-   "location": "电子器件制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=151774",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "077e94c92ae19e3571d4aafadf58c2c1",
-   "company": "佛山市国星光电股份有限公司",
-   "title": "博士后研究员（...（博士研究生）",
-   "location": "电子器件制造",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=149927",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "907185c3697714323a94d45d8f4674e7",
-   "company": "武汉国创科光电装备有限公司",
-   "title": "视觉算法工程师...（硕士研究生）",
-   "location": "电子和电工机械专用设备制造",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156728",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d9d8edbae6b74b7135ba392d5cd47603",
-   "company": "武汉国创科光电装备有限公司",
-   "title": "工艺工程师（2...（硕士研究生）",
-   "location": "电子和电工机械专用设备制造",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156729",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "23b29e01b2beb30f7cec5ba2db7e75c9",
-   "company": "惠州雷士光电科技有限公司",
-   "title": "品质工程师（本科生）",
-   "location": "照明器具制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156701",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "9bd94f95d5e5149efc2803a772309178",
-   "company": "惠州雷士光电科技有限公司",
-   "title": "结构工程师（本科生）",
-   "location": "照明器具制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=156691",
    "source": "gzhu"
   },
   {
@@ -1382,6 +1250,17 @@
    "dedup_key": "860a20adf0b9eaf7976e7d4653760f13",
    "company": "中国储备粮管理集团有限公司",
    "title": "采购管理岗",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "8ffdf79b8d8011a23bde7f359ca5a57d",
+   "company": "中国储备粮管理集团有限公司",
+   "title": "投资管理岗",
    "location": "",
    "salary": "",
    "deadline": "",
