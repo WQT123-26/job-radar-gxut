@@ -1,106 +1,7 @@
 {
- "updated_at": "2026-11-02T11:18:46",
- "count": 157,
+ "updated_at": "2026-11-02T23:58:53",
+ "count": 145,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "6bec23f4dcd0e6bf86f9e1099d1b1f2d",
-   "company": "定南大华新材料资源有限公司",
-   "title": "会计",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b7fd2b9a417e42e4eafdd884db916b45",
-   "company": "中国稀土集团有限公司",
-   "title": "“稀望星”科技人才",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e4bcb3fd2598eb4d7345326a7fafeeaf",
-   "company": "中稀（北京）稀土研究院有限公司",
-   "title": "科技研发岗",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "9c757637e0376caf751121496cb048b1",
-   "company": "广州建丰稀土有限公司",
-   "title": "生产工",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b49b0e3f0605f5d6bf7ae3a957de3f19",
-   "company": "中稀（江苏）稀土有限公司",
-   "title": "安全环保岗",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b3020ccf7769584fa1efeffe50660a81",
-   "company": "中稀（江苏）稀土有限公司",
-   "title": "生产技术岗",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7d428e2cacd278b959bf84071dbc3b69",
-   "company": "深圳市以凡泰科技有限公司",
-   "title": "研发助理工程师（本科生）",
-   "location": "其他金属制品制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157054",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3b60e57fd5c51673e05a4078c03c24c1",
-   "company": "广东沪利环境科技发展有限公司",
-   "title": "营销经理（博士研究生,硕士研究生,本科生）",
-   "location": "环境治理业",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157111",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f1f232b77c9ee66328dd7c7cddb8a30d",
-   "company": "广东沪利环境科技发展有限公司",
-   "title": "机械制造工程师（博士研究生,硕士研究生,本科生）",
-   "location": "环境治理业",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157112",
-   "source": "gzhu"
-  },
   {
    "score": 20,
    "dedup_key": "ee94d15be21f31c9df6c576dd4e1fd64",
@@ -111,39 +12,6 @@
    "deadline": "",
    "url": "https://jy.gzhu.edu.cn/job-detail?id=157113",
    "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "cea83f4a56a8a3dac7c88ffcc497b134",
-   "company": "深圳市互联港湾网络技术有限公司",
-   "title": "硬件工程师（专科生）",
-   "location": "其他互联网服务",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157075",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d53c39e92bdb2ca7a60ab58e85461778",
-   "company": "中煤一局集团有限公司",
-   "title": "山西分公司经营管理部预算员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "2673afcd0059e248232d34aca8835cad",
-   "company": "中煤一局集团有限公司",
-   "title": "山西分公司安全生产部施工员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
   },
   {
    "score": 20,
