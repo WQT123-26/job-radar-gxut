@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-07T23:58:34",
- "count": 390,
+ "updated_at": "2026-11-08T05:20:01",
+ "count": 378,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "2458a78b41516935d75ad4b8d86cba93",
-   "company": "中国东方航空股份有限公司",
-   "title": "2026年度上海东航数字科技有限公司云安全工程师招聘",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "78c9c7daff635bc2358fa3d5f24b5c7f",
-   "company": "中国东方航空股份有限公司",
-   "title": "【27年度秋招】卓越航空工程师（东航技术）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "da7ebca97efbf0541564fad5016fadba",
@@ -78,116 +56,6 @@
    "deadline": "",
    "url": "https://www.iguopin.com/job-detail?id=",
    "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e33627ce74760bba538a3ac9038ba48f",
-   "company": "国投健康产业发展（北京）有限公司",
-   "title": "厨师长岗",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "c61c4ce4bcc49b720e649de6465c6cda",
-   "company": "中国人民财产保险股份有限公司阳江市分公司",
-   "title": "中国人民财产保险股份有限公司阳江市分公司招聘简章",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3633644",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b5f5eef09eabecc5ed1ec5cae8a6716f",
-   "company": "衡安学校2027年教师",
-   "title": "衡安学校2027年教师招聘公告",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=721621",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b5ac0795d3a1e6c0ed7d8b1d55fa44c1",
-   "company": "山东省港口集团有限公司",
-   "title": "山东省港口集团有限公司 2027届校园招聘简章",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3633571",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "c62d21c1ee21de0f7cb6de703f7dd556",
-   "company": "广东广电网络",
-   "title": "广东广电网络2027届秋季 校园招聘简章",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3633591",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "de671449727d5e3759762fa8a9eb5afd",
-   "company": "锦江酒店2027校园",
-   "title": "锦江酒店2027校园招聘简章",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3630883",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e64f6361cf0b2a08d980ca2697bdc2ee",
-   "company": "深圳市互联港湾网络技术有限公司",
-   "title": "硬件工程师（本科生）",
-   "location": "其他互联网服务",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157126",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "126c9792c172783b51535c95469fd04d",
-   "company": "深圳市互联港湾网络技术有限公司",
-   "title": "FPGA工程师（本科生）",
-   "location": "其他互联网服务",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157127",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3f822d779ee5dad5212c2a00482a83bf",
-   "company": "广州立白企业集团有限公司",
-   "title": "市场品牌岗（硕士研究生,本科生）",
-   "location": "制造业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157117",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "5f4aa24dfc39e2adfa0894f974d7992f",
-   "company": "广州立白企业集团有限公司",
-   "title": "销售业务管理岗（本科生）",
-   "location": "制造业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157118",
-   "source": "gzhu"
   },
   {
    "score": 20,
