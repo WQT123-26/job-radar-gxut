@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-16T13:03:11",
- "count": 588,
+ "updated_at": "2026-11-16T20:36:37",
+ "count": 576,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "a7d993f7b1f9e4f3a06193f417fa2308",
-   "company": "广西柳工机械股份有限公司",
-   "title": "信用专员20235",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b541632a5a91aee80981b0b4d4e96982",
-   "company": "广西柳工机械股份有限公司",
-   "title": "商务高级专员8635",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "d45af729fcccf6525240d93f612dbf65",
@@ -92,28 +70,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "ca8da9b03ea4b48900b9f0a2345cd6ad",
-   "company": "广东世运电路科技股份有限公司",
-   "title": "储干（品质保证类）（本科生）",
-   "location": "其他电子设备制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157133",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "734040268e705933dd0fa1949212f80e",
-   "company": "广东世运电路科技股份有限公司",
-   "title": "储干（市场营销类）（本科生）",
-   "location": "其他电子设备制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157134",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
    "dedup_key": "a542d71eb0a717af33614293b90672e1",
    "company": "广东世运电路科技股份有限公司",
    "title": "储干（生产管理类）（硕士研究生,本科生）",
@@ -136,97 +92,9 @@
   },
   {
    "score": 20,
-   "dedup_key": "83564096d0fc0192444eb4790e72b9f8",
-   "company": "内蒙古鄂尔多斯资源股份有限公司",
-   "title": "针织数码机床技工",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "4c95e52487e132ab6fab147a0c6d0f08",
-   "company": "内蒙古鄂尔多斯资源股份有限公司",
-   "title": "梳毛机床技工",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "809e3a0b692e1e06d26b7bf827440f8d",
    "company": "内蒙古鄂尔多斯资源股份有限公司",
    "title": "细纱机床技工",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "8abb403b65d84ef5ddc87c973bbd86da",
-   "company": "石家庄奕裕达贸易有限公司",
-   "title": "销售主管",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7d549a2794b04787e3904a26571929f3",
-   "company": "石家庄奕裕达贸易有限公司",
-   "title": "文员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e38d5e5b509a5f76cbfb6fb29046b92d",
-   "company": "河北森瀚企业管理有限公司",
-   "title": "销售专员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7e284bf091812e07a16bfb6670678631",
-   "company": "河北森瀚企业管理有限公司",
-   "title": "销售经理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "2e573e7ca3d977d3d56b934688fe4111",
-   "company": "百瑞汇智（江西）集运有限公司",
-   "title": "业务运营岗主管",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "ff1c3258c000e841969d730f9ec07d50",
-   "company": "百瑞汇智（江西）集运有限公司",
-   "title": "业务运营岗专员",
    "location": "",
    "salary": "",
    "deadline": "",
