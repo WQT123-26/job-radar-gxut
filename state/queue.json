@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-18T13:20:19",
- "count": 588,
+ "updated_at": "2026-11-18T18:56:17",
+ "count": 576,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "8303385791df545da47ac3a061f5b4ae",
-   "company": "上海市计算机行业协会",
-   "title": "渠道经理管培生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "abc415244cf0d460dd69f5987d9a594c",
-   "company": "上海市计算机行业协会",
-   "title": "市场运营人员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "7a24eeaf1db2fcf3c43ecbab863d414f",
@@ -136,39 +114,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "f0e06defb09c034564f9b67fba540e83",
-   "company": "上海卓川人力资源有限公司",
-   "title": "保洁员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "73b09eb6e0bee8be1828250b0cd4a461",
-   "company": "上海隆裕国际货运代理有限公司",
-   "title": "国际货运操作/单证",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "6a2665826cd2ade0f281907877c40437",
-   "company": "上海卓川人力资源有限公司",
-   "title": "pc肉仓分拣（零工）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "7e7121dffdb03e66a438492aa323a680",
    "company": "上海卓川人力资源有限公司",
    "title": "装配电工",
@@ -199,83 +144,6 @@
    "deadline": "",
    "url": "https://www.iguopin.com/job-detail?id=",
    "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "eb975edca4527df2b36e168e2f70ea92",
-   "company": "国家电投集团五凌电力有限公司",
-   "title": "财务管理岗位",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "93169bee82725ebd4b82ab3c0cc3145d",
-   "company": "中色卢安夏铜业有限公司",
-   "title": "电气工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "281e3f7f89c07c2d677615c93c01a2f7",
-   "company": "卓越教育集团",
-   "title": "卓越教育集团2027届秋季校园招聘",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3591065",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "fcfc20992b742ff5b233899d8050c8d2",
-   "company": "使命召唤 航空报国 ——中国航空工业集团津电",
-   "title": "使命召唤 航空报国 ——中国航空工业集团津电 2027届毕业生招聘",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3635214",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7c50fe326f6a7a85de30f85092e3e124",
-   "company": "“海风引才至 岚岛筑梦行”平潭综合实验区2027年度校园公开",
-   "title": "“海风引才至 岚岛筑梦行”平潭综合实验区2027年度校园公开招聘简章",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3635498",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e621e7bf638e0e02e836d2096c8e8bae",
-   "company": "齐齐哈尔工程学院2026年公开",
-   "title": "齐齐哈尔工程学院2026年公开招聘",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3635661",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f48be2cb8e8005a26bc93e8596a0b995",
-   "company": "小机灵（广州）技术服务有限责任公司",
-   "title": "法语翻译（本科生）",
-   "location": "通信设备制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11381",
-   "source": "gdufs"
   },
   {
    "score": 20,
