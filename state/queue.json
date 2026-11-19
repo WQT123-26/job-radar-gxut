@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-19T13:45:04",
- "count": 588,
+ "updated_at": "2026-11-19T19:07:34",
+ "count": 576,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "f17ebf8e1478bad1ff2011faa38227d6",
-   "company": "上海市计算机行业协会",
-   "title": "大模型工程师助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "368a5d7177ab70b62e3de8cb86998fd7",
-   "company": "上海市计算机行业协会",
-   "title": "项目管理助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "ed20253ae3c96a2cea289b44950f33de",
@@ -62,116 +40,6 @@
    "dedup_key": "090f128f87e1db56f3455e7f8a3cd8e3",
    "company": "上海市计算机行业协会",
    "title": "零信任研发工程师助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "77b223951ba9946f76f75d5a274d34dd",
-   "company": "GE医疗中国",
-   "title": "R4048985 高级战略客户销售专员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "bfcda7258103d6300a5679f2b3725d10",
-   "company": "江苏唯德康医疗科技有限公司",
-   "title": "湖北销售经理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "69923e96715e2fc2a58e8ce97d0e9119",
-   "company": "苏州解码生物医药科技有限公司",
-   "title": "招商经理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "512e77153ab5f3bb5e967a638bbce4e5",
-   "company": "北京凯因科技股份有限公司",
-   "title": "医药招商地区经理（湖北湖南）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b97611223fd693d1b35205db3e020471",
-   "company": "三生制药集团",
-   "title": "销售大区经理（湖北）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "77e16b2775e4d8b8f7745bc483375085",
-   "company": "焦作明仁食品有限公司",
-   "title": "餐饮渠道销售总监",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "51722e0694bfed575dedf40eb5860b3f",
-   "company": "山东森农食品有限公司",
-   "title": "区域销售经理/主管（湖北区）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "fec7d3eeaab53ee13bc1f2d5c995e9c1",
-   "company": "重庆市料美食品有限公司",
-   "title": "华中大区销售总监（武汉）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "ae060c047fc53489404f11a9e3669305",
-   "company": "湖北法拍信息技术有限公司",
-   "title": "销售经理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "1b059d2e5927d081a6adfd026738775e",
-   "company": "德信地产集团有限公司",
-   "title": "客户经理",
    "location": "",
    "salary": "",
    "deadline": "",
