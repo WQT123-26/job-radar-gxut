@@ -1,100 +1,12 @@
 {
- "updated_at": "2026-11-20T13:27:24",
- "count": 588,
+ "updated_at": "2026-11-20T18:41:52",
+ "count": 580,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "70dc11865fc10c36b918f420f9e3da55",
-   "company": "永赢金融租赁有限公司",
-   "title": "宁波银行·永赢金租公司培训生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "562ab34ac433a1ce28d6f34e7152b697",
-   "company": "盐城市大丰人民医院（盐城市大丰区职业病防治院）",
-   "title": "内科、急诊、重症",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f20b517a1af154d74000793d9616424b",
-   "company": "卓越（昆山）自动化技术有限公司",
-   "title": "机械工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "ca029cabbf6985a525611d52fce163c1",
-   "company": "盐城市大丰人民医院（盐城市大丰区职业病防治院）",
-   "title": "医学影像科",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "5c37fd400521d0398778e517adc4a223",
    "company": "盐城市大丰人民医院（盐城市大丰区职业病防治院）",
    "title": "介入治疗、肿瘤治疗等岗位",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "16ba6e9582a24e4d1acad3535e8a68ac",
-   "company": "利尔化学股份有限公司",
-   "title": "生物研发员（发酵）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "de89933f671fb19eb6b927479c9cd101",
-   "company": "日荣半导体（上海）有限公司",
-   "title": "产品设计工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "9ee2e8e1ccd9a745e80236bb444cb534",
-   "company": "易大宗（广东）供应链管理有限公司",
-   "title": "检化验技术助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "743e2730088e42d366eaae97727fd78c",
-   "company": "日荣半导体（上海）有限公司",
-   "title": "产品测试工程师",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -114,53 +26,9 @@
   },
   {
    "score": 20,
-   "dedup_key": "b0daab0100c74a7116a8d7153dbbb71f",
-   "company": "上海联适导航技术股份有限公司",
-   "title": "技术",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "9a78b379613e51e850518a3d736432dd",
    "company": "盐城市大丰人民医院（盐城市大丰区职业病防治院）",
    "title": "病理科",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "4e42b0f738296e0c709abe5ec0693d55",
-   "company": "福耀铝件（重庆）有限公司",
-   "title": "产品开发",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "65a553c97c349e7d9ba867d5e8d00e9a",
-   "company": "易大宗（广东）供应链管理有限公司",
-   "title": "物流助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "0258712e9795df7664be1b73ee46ae71",
-   "company": "永赢金融租赁有限公司",
-   "title": "永往直前，赢领未来！ ——宁波银行？永赢金租2027届秋季校园招聘火热进行中",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -6469,6 +6337,50 @@
    "deadline": "",
    "url": "https://www.iguopin.com/job-detail?id=",
    "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "2a76426c85c851ad0ae5fd76edf6fbcb",
+   "company": "南峰集团2026校园",
+   "title": "南峰集团2026校园招聘会",
+   "location": "广东",
+   "salary": "",
+   "deadline": "",
+   "url": "https://career.scnu.edu.cn/detail/online?id=3641547",
+   "source": "scnu"
+  },
+  {
+   "score": 20,
+   "dedup_key": "c7bb00d13e953b51361b397600a17948",
+   "company": "12月4日”粤聚英才、粤见未来“粤港澳大湾区青年人才对接会 ——电子信息专场",
+   "title": "12月4日”粤聚英才、粤见未来“粤港澳大湾区青年人才对接会 ——电子信息专场",
+   "location": "广东",
+   "salary": "",
+   "deadline": "",
+   "url": "https://career.scnu.edu.cn/detail/online?id=3641438",
+   "source": "scnu"
+  },
+  {
+   "score": 20,
+   "dedup_key": "8a536377dd3740038adb36be4699fcb8",
+   "company": "中共四川省委党校（四川行政学院）2027年公开",
+   "title": "中共四川省委党校（四川行政学院）2027年公开招聘教研人员公告",
+   "location": "广东",
+   "salary": "",
+   "deadline": "",
+   "url": "https://career.scnu.edu.cn/detail/online?id=3640698",
+   "source": "scnu"
+  },
+  {
+   "score": 20,
+   "dedup_key": "355625524fa0bc273df90f7112d9c31e",
+   "company": "北京城市排水集团有限责任公司（含北京子公司） 2027年校园",
+   "title": "北京城市排水集团有限责任公司（含北京子公司） 2027年校园招聘简章",
+   "location": "广东",
+   "salary": "",
+   "deadline": "",
+   "url": "https://career.scnu.edu.cn/detail/online?id=3640232",
+   "source": "scnu"
   }
  ]
 }
