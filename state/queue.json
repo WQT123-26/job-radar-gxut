@@ -1,106 +1,7 @@
 {
- "updated_at": "2026-11-20T18:41:52",
- "count": 580,
+ "updated_at": "2026-11-21T04:08:31",
+ "count": 588,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "5c37fd400521d0398778e517adc4a223",
-   "company": "盐城市大丰人民医院（盐城市大丰区职业病防治院）",
-   "title": "介入治疗、肿瘤治疗等岗位",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f9a9a58db3a2b09b094904b45b9b6ddc",
-   "company": "日荣半导体（上海）有限公司",
-   "title": "封装工艺工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "9a78b379613e51e850518a3d736432dd",
-   "company": "盐城市大丰人民医院（盐城市大丰区职业病防治院）",
-   "title": "病理科",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "79134bd2c7617b75064627e7cd4911d1",
-   "company": "易大宗（广东）供应链管理有限公司",
-   "title": "机械工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7a7f28cf59033b31600afcf53ff636ff",
-   "company": "徐州筑邦工程科技有限公司",
-   "title": "电气工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "4863fc0632227288a8315292aacb0cc5",
-   "company": "徐州轩创汽车科技有限公司",
-   "title": "CAE汽车仿真实习生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3db0441b8b0c318b6edb9d02bce661cc",
-   "company": "青海量具（常州）有限公司",
-   "title": "技术储备生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "31f2cd82538f716766507dd414434648",
-   "company": "鼓楼区轻添正元食品店",
-   "title": "健康顾问",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3356ac16464bef7f0dc4096c2c4b6758",
-   "company": "青海量具（常州）有限公司",
-   "title": "质量储备生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "421411973f2a4947449cba011d15eb0a",
@@ -125,42 +26,9 @@
   },
   {
    "score": 20,
-   "dedup_key": "227c3ccb52824e416bd5bf4136254cdb",
-   "company": "雄安人才服务有限公司",
-   "title": "内容产品经理助理（代招）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f58956e019e7ef2f16cb04aff87182ea",
-   "company": "雄安人才服务有限公司",
-   "title": "内容产品经理（代招）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "36768ffb263d2faae4a267cede3b161d",
    "company": "雄安人才服务有限公司",
    "title": "出版发行（代招）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "8f4b3040afad6f4c30eccb1f525ea2ca",
-   "company": "厦门国际银行股份有限公司厦门分行",
-   "title": "青年银行家",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -6381,6 +6249,226 @@
    "deadline": "",
    "url": "https://career.scnu.edu.cn/detail/online?id=3640232",
    "source": "scnu"
+  },
+  {
+   "score": 20,
+   "dedup_key": "7fa44b7923211f9d9e5ab15f7a315529",
+   "company": "中铝中州铝业有限公司",
+   "title": "爆破工程师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "198543b361ddb8dc7580a3fd97ac9846",
+   "company": "中铝中州铝业有限公司",
+   "title": "机电工程师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "a311c3f5176b4633d5ca344325117401",
+   "company": "中铝中州铝业有限公司",
+   "title": "探放水工",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "bd85fa96fc1573d03c0b753a9eb3628a",
+   "company": "中铝中州铝业有限公司",
+   "title": "检修工",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "703ac85b16515e8bb60ed5bf3eeb94f5",
+   "company": "中铝中州铝业有限公司",
+   "title": "支护工",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "75c3a7b40b9bc083954adabc1ad0e9f0",
+   "company": "中铝中州铝业有限公司",
+   "title": "凿岩工",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "394eb37f760c862787e0ebefd63fe019",
+   "company": "中铝中州铝业有限公司",
+   "title": "操作工班长",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "5be3679cb3bd515ae9e9e633100e599b",
+   "company": "中铝中州铝业有限公司",
+   "title": "出渣工",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "b0dcf911bef195b9a0a418033f9f6be1",
+   "company": "中铝中州铝业有限公司",
+   "title": "测量工",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "5273ec7763b1b2e0d6653f97a817a3b7",
+   "company": "中铝中州铝业有限公司",
+   "title": "安全工程师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "831c0f41bd204a8133fa0d53481aacaa",
+   "company": "中铝中州铝业有限公司",
+   "title": "地压防治工程师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "2f7f5621905f7b9d946d5cb8a49df570",
+   "company": "中铝中州铝业有限公司",
+   "title": "防治水工程师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "51782bff0422b2d5429d6bb59e5a859e",
+   "company": "北京中天鹏宇科技发展有限公司",
+   "title": "财务助理",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "32d17c96da7186801999289dac371519",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "结构强度设计师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "08c31e19ea0d8409e650144449da6c0a",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "仿真设计师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "f5d18a1781012adae6174daab79e4358",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "工艺师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "41ce6f26925403fe2e57ad1ebde01cf9",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "软件设计师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "ecef6af2cfecc5a80a033879011f6a63",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "控制硬件研究师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "9eef01a822bedbb08e070601f06c55ba",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "可靠性工程师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "c5933f2a7ba9961681c4e0bbe75e0e98",
+   "company": "湖北三江航天红林探控有限公司",
+   "title": "试验师",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
   }
  ]
 }
