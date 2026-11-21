@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-21T12:54:54",
- "count": 588,
+ "updated_at": "2026-11-21T17:42:04",
+ "count": 576,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "a00b42dce6be3cf7153b1ef6d522f6f8",
-   "company": "新莱应材科技（淮安）有限公司",
-   "title": "抛光工",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f8f1b5ac2c986f40f6ab608518c399c9",
-   "company": "新莱应材科技（淮安）有限公司",
-   "title": "管件成型",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "7d1b82b4c6e89d1af6d2457277514176",
@@ -48,83 +26,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "5d379f959a60c06db4ab01ee98d5757c",
-   "company": "江西金德锂新能源科技有限公司",
-   "title": "研发工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "cd9f22e3f1c685c7ff52c4197b09c5e6",
-   "company": "江西李渡贸易有限公司",
-   "title": "人力管培生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "6ca248ba0a3a47205cd1690f5d9d339a",
-   "company": "江西李渡贸易有限公司",
-   "title": "营销管培生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "64d978606d688d45a83e181e26579d24",
-   "company": "江西睿讯科技有限公司",
-   "title": "软件销售经理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7d4e190ebf8c503daeda38a9622a6893",
-   "company": "江西睿讯科技有限公司",
-   "title": "数据建模师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d92ca0b774db05efad9261ef12b26699",
-   "company": "江西幻云信息科技有限公司",
-   "title": "人工智能技术讲师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "49612ba87b0474e69eb5ebbd96d429fa",
-   "company": "江西幻云信息科技有限公司",
-   "title": "鸿蒙移动应用开发技术讲师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "1bd8bdf6f3b2db88a52ab0511679a8f4",
    "company": "江西幻云信息科技有限公司",
    "title": "嵌入式/单片机等物联网方向技术讲师",
@@ -139,39 +40,6 @@
    "dedup_key": "7a37c5eeaea3e45539f1569e7efda456",
    "company": "江西幻云信息科技有限公司",
    "title": "网络安全技术讲师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "7b7dbccaab1e3e253bcf7307100d0449",
-   "company": "江西万唐服饰有限公司",
-   "title": "管培生",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "4f4a2d832cb538b1eb3d2607250f6539",
-   "company": "北京新东方前途出国咨询有限公司南昌分公司",
-   "title": "国际学术导师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "aa18660dc4632c4e93795e2e908ee607",
-   "company": "北京新东方前途出国咨询有限公司南昌分公司",
-   "title": "国际学科老师",
    "location": "",
    "salary": "",
    "deadline": "",
