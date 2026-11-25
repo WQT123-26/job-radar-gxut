@@ -1,84 +1,7 @@
 {
- "updated_at": "2026-11-25T14:49:12",
- "count": 588,
+ "updated_at": "2026-11-25T20:00:41",
+ "count": 576,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "79954fd7acef24a6e9c6f4a6035ef022",
-   "company": "苏州志腾岚峰自动化科技有限公司",
-   "title": "折弯大师傅",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3a41f2fa3cf308e877af821f5b4e73e6",
-   "company": "苏州志腾岚峰自动化科技有限公司",
-   "title": "质检",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b5546986327bf573c2c8cc13771a551d",
-   "company": "创轩（常熟）激光科技有限公司",
-   "title": "门卫保安",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "bf4827a127fe0947f8e1428413516763",
-   "company": "瑞斯康电气技术（苏州）有限公司",
-   "title": "3D绘图员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "34518e01f7e53bf403fab9521272cd39",
-   "company": "苏州大阳机器人有限公司",
-   "title": "普工",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "5294abcc63cd2b5197715a946d3dd2bc",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "打包工（新桥镇）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "caf4c0acf2e01843f3d1b5c8e4ff53f8",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "打包工（徐霞客）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "e334162a607441860d9c70aea1c62f02",
@@ -370,61 +293,6 @@
    "dedup_key": "df7cf16f49e01d61a3b2aff7621d151c",
    "company": "江阴旭辉人力资源有限公司",
    "title": "打包工（顾山镇）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "4f8884a51f91e9e8dbc23de310beada2",
-   "company": "温州童梦晴天儿童用品有限公司",
-   "title": "新媒体运营助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "106ec96355df8bada80b02989d3afa6c",
-   "company": "嘉兴蓝森机械有限公司",
-   "title": "统计",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "1f99e270e38ce14ad80296c28ee44005",
-   "company": "苍南县众鑫纺织有限公司",
-   "title": "动画设计",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "65e886ab16ae26e5771c084c4613e65d",
-   "company": "温州童梦晴天儿童用品有限公司",
-   "title": "美工助理",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "f894449ab43efd4ddf47294aa70b00a7",
-   "company": "嘉兴宝华汽车销售服务有限公司",
-   "title": "市场专员",
    "location": "",
    "salary": "",
    "deadline": "",
