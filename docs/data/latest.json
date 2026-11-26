@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-26T14:13:18",
+  "updated_at": "2026-11-26T19:44:05",
   "slot": "晚间",
   "jobs": [
     {
       "score": 20,
-      "dedup_key": "fe0a9a39e9b54e326219aba81515c0bd",
+      "dedup_key": "5cdd7e24ddffc07f4483ed5c9b436af2",
       "company": "江阴旭辉人力资源有限公司",
-      "title": "搬运工（顾山镇）",
+      "title": "搬运工（南闸）",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -15,9 +15,9 @@
     },
     {
       "score": 20,
-      "dedup_key": "94436d38f99a69c3372868c1e96d9d10",
+      "dedup_key": "72a97ec3c4b1e667cbfcc254615b3527",
       "company": "江阴旭辉人力资源有限公司",
-      "title": "搬运工（青阳镇）",
+      "title": "打包工（申港）",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -26,20 +26,9 @@
     },
     {
       "score": 20,
-      "dedup_key": "bc3a0b1ab539a916831b5f63256f96d9",
-      "company": "杭州途焱科技有限公司",
-      "title": "兼职职称文员",
-      "location": "",
-      "salary": "",
-      "deadline": "",
-      "url": "https://www.iguopin.com/job-detail?id=",
-      "source": "iguopin"
-    },
-    {
-      "score": 20,
-      "dedup_key": "be8a18c48d2f68466988f9adecf7b7ec",
+      "dedup_key": "6f1a936f6285da87a11b967c51e41585",
       "company": "杭州领祺科技有限公司",
-      "title": "技术支持部门经理（电力新能源方向）",
+      "title": "中级网络工程师",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -48,9 +37,9 @@
     },
     {
       "score": 20,
-      "dedup_key": "6936c89ccab74978c70db30a2863e0a1",
+      "dedup_key": "e0c35087ffe93cd65b9d1f1de442db06",
       "company": "杭州领祺科技有限公司",
-      "title": "销售助理",
+      "title": "AI内容运营专员",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -59,9 +48,9 @@
     },
     {
       "score": 20,
-      "dedup_key": "dd3fc762d91897eabf5a7afae31d85b9",
+      "dedup_key": "51f6a88a876e23a2778d8bab0b85b8a5",
       "company": "浙江足下生辉科技发展有限公司",
-      "title": "商超业务员",
+      "title": "艺术馆销售顾问",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -70,31 +59,9 @@
     },
     {
       "score": 20,
-      "dedup_key": "fddbf56d28794d7a635ad5a88cdb812b",
-      "company": "浙江足下生辉科技发展有限公司",
-      "title": "采购员",
-      "location": "",
-      "salary": "",
-      "deadline": "",
-      "url": "https://www.iguopin.com/job-detail?id=",
-      "source": "iguopin"
-    },
-    {
-      "score": 20,
-      "dedup_key": "a1c638eb6c5b5b85409440ae15423b08",
-      "company": "杭州新希望双峰乳业有限公司",
-      "title": "征订员",
-      "location": "",
-      "salary": "",
-      "deadline": "",
-      "url": "https://www.iguopin.com/job-detail?id=",
-      "source": "iguopin"
-    },
-    {
-      "score": 20,
-      "dedup_key": "c1ff71b8c7b71da078403aea23f4a1d8",
+      "dedup_key": "00a44361e45299ac3bbf5bc666240d93",
       "company": "杭州码全信息科技有限公司",
-      "title": "后端开发",
+      "title": "前端开发",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -103,20 +70,9 @@
     },
     {
       "score": 20,
-      "dedup_key": "743446ab00193a2f6bd9839d1e045a2f",
-      "company": "杭州码全信息科技有限公司",
-      "title": "算法开发",
-      "location": "",
-      "salary": "",
-      "deadline": "",
-      "url": "https://www.iguopin.com/job-detail?id=",
-      "source": "iguopin"
-    },
-    {
-      "score": 20,
-      "dedup_key": "936d83b431cbcc3fda91af3eb01ff280",
+      "dedup_key": "36cbb9e81bfac1c1b4c21109c2e8e532",
       "company": "浙江炎黄民芯科技有限公司",
-      "title": "助理工程师",
+      "title": "功率器件销售专员",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -125,9 +81,53 @@
     },
     {
       "score": 20,
-      "dedup_key": "fff23706421551a26c4afd9047420808",
+      "dedup_key": "2dc1d3456f301616d9d60b989a294f27",
       "company": "十足集团有限公司",
-      "title": "现场工程师",
+      "title": "机械设备工程师",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin"
+    },
+    {
+      "score": 20,
+      "dedup_key": "3ea803dba6c617293535c9bd2a3cf5df",
+      "company": "杭州昆泰磁悬浮技术有限公司",
+      "title": "现场服务工程师",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin"
+    },
+    {
+      "score": 20,
+      "dedup_key": "5bc04216fb9a0d541b04bda535b2d274",
+      "company": "锦创科技股份有限公司杭州分公司",
+      "title": "浙江10010客服",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin"
+    },
+    {
+      "score": 20,
+      "dedup_key": "b3d2e12ad6d7dde5f04c2a7db074fd68",
+      "company": "十足集团有限公司",
+      "title": "十足区域指导员",
+      "location": "",
+      "salary": "",
+      "deadline": "",
+      "url": "https://www.iguopin.com/job-detail?id=",
+      "source": "iguopin"
+    },
+    {
+      "score": 20,
+      "dedup_key": "d3656a7e7a4febaffb15b71671791595",
+      "company": "湖南食品药品检验研究院",
+      "title": "检验员2",
       "location": "",
       "salary": "",
       "deadline": "",
@@ -135,8 +135,8 @@
       "source": "iguopin"
     }
   ],
-  "pool_remaining": 588,
+  "pool_remaining": 576,
   "source_errors": [],
-  "raw_count": 253,
+  "raw_count": 213,
   "fresh_count": 12
 }

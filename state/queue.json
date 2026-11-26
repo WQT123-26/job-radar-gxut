@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-26T14:13:18",
- "count": 588,
+ "updated_at": "2026-11-26T19:44:05",
+ "count": 576,
  "items": [
-  {
-   "score": 20,
-   "dedup_key": "5cdd7e24ddffc07f4483ed5c9b436af2",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "搬运工（南闸）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "72a97ec3c4b1e667cbfcc254615b3527",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "打包工（申港）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 20,
    "dedup_key": "a34cdb9009e931035e52f9b04c73ce36",
@@ -257,28 +235,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "6f1a936f6285da87a11b967c51e41585",
-   "company": "杭州领祺科技有限公司",
-   "title": "中级网络工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e0c35087ffe93cd65b9d1f1de442db06",
-   "company": "杭州领祺科技有限公司",
-   "title": "AI内容运营专员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "bd3f99f077a8fc3840b2b63ec9e725db",
    "company": "杭州领祺科技有限公司",
    "title": "线上内容运营专员",
@@ -304,94 +260,6 @@
    "dedup_key": "d560df8f6edae7e7012ab491e3f375bd",
    "company": "杭州领祺科技有限公司",
    "title": "硬件测试维修工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "51f6a88a876e23a2778d8bab0b85b8a5",
-   "company": "浙江足下生辉科技发展有限公司",
-   "title": "艺术馆销售顾问",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "00a44361e45299ac3bbf5bc666240d93",
-   "company": "杭州码全信息科技有限公司",
-   "title": "前端开发",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "36cbb9e81bfac1c1b4c21109c2e8e532",
-   "company": "浙江炎黄民芯科技有限公司",
-   "title": "功率器件销售专员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "2dc1d3456f301616d9d60b989a294f27",
-   "company": "十足集团有限公司",
-   "title": "机械设备工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "3ea803dba6c617293535c9bd2a3cf5df",
-   "company": "杭州昆泰磁悬浮技术有限公司",
-   "title": "现场服务工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "5bc04216fb9a0d541b04bda535b2d274",
-   "company": "锦创科技股份有限公司杭州分公司",
-   "title": "浙江10010客服",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "b3d2e12ad6d7dde5f04c2a7db074fd68",
-   "company": "十足集团有限公司",
-   "title": "十足区域指导员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d3656a7e7a4febaffb15b71671791595",
-   "company": "湖南食品药品检验研究院",
-   "title": "检验员2",
    "location": "",
    "salary": "",
    "deadline": "",
