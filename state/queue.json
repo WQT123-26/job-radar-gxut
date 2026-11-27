@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-27T14:10:41",
- "count": 588,
+ "updated_at": "2026-11-27T19:34:02",
+ "count": 576,
  "items": [
-  {
-   "score": 30,
-   "dedup_key": "e0c30f06459afea5069ce32c7b2ae577",
-   "company": "TCL实业控股股份有限公司",
-   "title": "招聘实习生93825556",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 30,
-   "dedup_key": "0ae555d2caf65018547088bfbae5c47d",
-   "company": "TCL实业控股股份有限公司",
-   "title": "AIGC内容制作实习生93293713",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 30,
    "dedup_key": "3130acab262eb3cfe86f23941119fa90",
@@ -128,28 +106,6 @@
    "dedup_key": "ab10633b9b4ce472aa3d7e502b8fc72b",
    "company": "TCL实业控股股份有限公司",
    "title": "海外销售(J14409)",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "e945cd5bbf2d2e9e42bbd03b5f170054",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "快递员（祝塘镇）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "76ab224944b95b0d901c29a82f00d43b",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "快递员（长泾镇）",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -323,28 +279,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "bd5b868804e3799e11c000e569ebc6b0",
-   "company": "湖北电影集团",
-   "title": "黄冈子公司运营总监",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "4b6819d5bdb5d44f14a2801c8fcc01b3",
-   "company": "湖北电影集团",
-   "title": "投资与运营高级主管",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "808db02de77c2a6cb74121f82697af82",
    "company": "湖北电影集团",
    "title": "政策与调查研究专员",
@@ -370,28 +304,6 @@
    "dedup_key": "7851b721ca15f928082b629969b4403c",
    "company": "湖北电影集团",
    "title": "生产技术员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "fa8e0a5173d9a27f1653e5e4e2067b52",
-   "company": "湖北报业集团",
-   "title": "AI应用开发工程师",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "815c7c664915de7e0405149fb1058760",
-   "company": "湖北报业集团",
-   "title": "创意文案",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -521,28 +433,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "a678bb7becf49d9dc32d2eedc9917dd7",
-   "company": "广州奇光泛海传媒有限公司",
-   "title": "短视频编导岗（硕士研究生,本科生）",
-   "location": "文化艺术业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11429",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "6cb3f24ecfbaa9e8b4bdfdd8946b7312",
-   "company": "广州奇光泛海传媒有限公司",
-   "title": "内容创意岗（海...（硕士研究生,本科生）",
-   "location": "文化艺术业",
-   "salary": "1万元以上",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11435",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
    "dedup_key": "926bf11ea6afa3f0ddca684009234ca9",
    "company": "广州奇光泛海传媒有限公司",
    "title": "海外社媒运营（硕士研究生,本科生）",
@@ -551,28 +441,6 @@
    "deadline": "",
    "url": "https://career.gdufs.edu.cn/job-detail?id=11436",
    "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "a0a6263daa09de9423df36a49e417acc",
-   "company": "广州华迈思创新材料有限公司",
-   "title": "润滑材料研发工程师（二学位,本科生）",
-   "location": "精炼石油产品制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157162",
-   "source": "gzhu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "cebd71525014cba71155b46377963cfc",
-   "company": "广州华迈思创新材料有限公司",
-   "title": "销售工程师（二学位,本科生）",
-   "location": "精炼石油产品制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://jy.gzhu.edu.cn/job-detail?id=157163",
-   "source": "gzhu"
   },
   {
    "score": 20,
