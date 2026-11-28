@@ -1,29 +1,7 @@
 {
- "updated_at": "2026-11-28T04:51:31",
- "count": 585,
+ "updated_at": "2026-11-28T13:28:03",
+ "count": 574,
  "items": [
-  {
-   "score": 30,
-   "dedup_key": "ded02c81cc6979ba2e6cecb57a10beca",
-   "company": "TCL实业控股股份有限公司",
-   "title": "AIGC电影导演实习生93780810",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 30,
-   "dedup_key": "4a53a93286ebcf65c84b7604b70f274e",
-   "company": "TCL实业控股股份有限公司",
-   "title": "天线实习生94262250",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
   {
    "score": 30,
    "dedup_key": "0c3b96d3dbd7968bf3f537af3e9b1754",
@@ -84,28 +62,6 @@
    "dedup_key": "ab10633b9b4ce472aa3d7e502b8fc72b",
    "company": "TCL实业控股股份有限公司",
    "title": "海外销售(J14409)",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "6c492189ad418940fddb564e6e15cf5f",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "搬运工（申港）",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "398f9d13873cc3cd9b4176dc32c44691",
-   "company": "江阴旭辉人力资源有限公司",
-   "title": "快递员（申港）",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -235,39 +191,6 @@
   },
   {
    "score": 20,
-   "dedup_key": "7851b721ca15f928082b629969b4403c",
-   "company": "湖北电影集团",
-   "title": "生产技术员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "d4025d1a98a7f6a3e68b79fcb32faa56",
-   "company": "湖北报业集团",
-   "title": "国际传播采编",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "8e6845f279daabd0cee0fcbe13c4583a",
-   "company": "湖北报业集团",
-   "title": "评论员",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
    "dedup_key": "b9682a8585fca61d83e5af74c1930654",
    "company": "湖北报业集团",
    "title": "全媒体记者 （部分岗位派驻湖北省外工作）",
@@ -337,28 +260,6 @@
    "dedup_key": "3653bf420ee6f02ce53aaf25ec487f45",
    "company": "湖北报业集团",
    "title": "短片创意编剧",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "0879715ebf3448e638366b77c85208f4",
-   "company": "长安银行股份有限公司",
-   "title": "黄陵县支行综合运营支持岗",
-   "location": "",
-   "salary": "",
-   "deadline": "",
-   "url": "https://www.iguopin.com/job-detail?id=",
-   "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "1833c40955832883927600b5fa9ed276",
-   "company": "长安银行股份有限公司",
-   "title": "志丹县支行综合运营支持岗",
    "location": "",
    "salary": "",
    "deadline": "",
@@ -441,39 +342,6 @@
    "deadline": "",
    "url": "https://www.iguopin.com/job-detail?id=",
    "source": "iguopin"
-  },
-  {
-   "score": 20,
-   "dedup_key": "aa933ab4da3a8e81e90be26cd07b2830",
-   "company": "【11月18日19点】新东方华南区27",
-   "title": "【11月18日19点】新东方华南区27校招空中宣讲会",
-   "location": "广东",
-   "salary": "",
-   "deadline": "",
-   "url": "https://career.scnu.edu.cn/detail/online?id=3638189",
-   "source": "scnu"
-  },
-  {
-   "score": 20,
-   "dedup_key": "990b8161ea0cc95ac146d4f8b9cba038",
-   "company": "深圳华秋电子有限公司",
-   "title": "研发工程师（本科生）",
-   "location": "电子器件制造",
-   "salary": "8000-10000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11438",
-   "source": "gdufs"
-  },
-  {
-   "score": 20,
-   "dedup_key": "79f99be917dfa83b23cfc5e022fb9a44",
-   "company": "深圳华秋电子有限公司",
-   "title": "高管助理管培生...（本科生）",
-   "location": "电子器件制造",
-   "salary": "6000-8000元/月",
-   "deadline": "",
-   "url": "https://career.gdufs.edu.cn/job-detail?id=11439",
-   "source": "gdufs"
   },
   {
    "score": 20,
@@ -6431,6 +6299,17 @@
    "dedup_key": "19c617e8fa06e4407112c78b34fd98ec",
    "company": "京东集团",
    "title": "销售岗",
+   "location": "",
+   "salary": "",
+   "deadline": "",
+   "url": "https://www.iguopin.com/job-detail?id=",
+   "source": "iguopin"
+  },
+  {
+   "score": 20,
+   "dedup_key": "48ae20c63dcbd2e9c195a3f51852b2a1",
+   "company": "国药集团上海医疗器械有限公司",
+   "title": "运营专员",
    "location": "",
    "salary": "",
    "deadline": "",
